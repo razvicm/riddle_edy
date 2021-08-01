@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from '../styles/Home.module.scss'
 
 
 function Form({ children, challenge }) {
@@ -29,12 +30,12 @@ function Form({ children, challenge }) {
   }
 
 
-  return <div>
+  return <form className={styles.form} onSubmit={e => e.preventDefault()}>
     <input type="text" value={value} onChange={e => setValue(e.target.value)} />
-    <button type="submit" onClick={checkResponse}>Submit</button>
-    {correctAnswer && children}
-    {wrongAnswer && <h4>Raspuns gresit</h4>}
-  </div>
+    <button type="submit" onClick={checkResponse}>Trimite</button>
+    {correctAnswer ? children : <p />}
+    {wrongAnswer ? <h3>Raspuns gresit</h3> : <p />}
+  </form>
 }
 
 export default Form
