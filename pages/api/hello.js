@@ -11,7 +11,7 @@ export default function handler(req, res) {
     const { value, challenge } = req.body;
     // Process a POST request
     console.log(req.body.value);
-    if (value === anwers[challenge])
+    if (value.toLowerCase() === anwers[challenge])
       return res.status(200).json({ status: "correct" });
 
     else return res.status(200).json({ status: "wrong" });
