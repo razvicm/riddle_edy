@@ -8,6 +8,10 @@ function Form({ children, challenge }) {
   const [wrongAnswer, setWrongAnswer] = React.useState('')
 
   const checkResponse = async () => {
+    if (!value) {
+
+      return
+    }
     const res = await fetch("/api/hello", {
       method: 'POST',
       headers: {
@@ -31,7 +35,7 @@ function Form({ children, challenge }) {
 
 
   return <form className={styles.form} onSubmit={e => e.preventDefault()}>
-    <input type="text" value={value} onChange={e => setValue(e.target.value)} />
+    <input required type="text" value={value} onChange={e => setValue(e.target.value)} />
     <button type="submit" onClick={checkResponse}>Trimite</button>
     {correctAnswer ? children : <p />}
     {wrongAnswer ? <h3>Raspuns gresit</h3> : <p />}
