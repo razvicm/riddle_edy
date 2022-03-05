@@ -4,20 +4,20 @@ import React from "react";
 
 function HomePage() {
   return (
-    <div>
+    <>
       <Link href="challenges/Chapter1">Capitolul 1</Link>
-      <Spacer />
+      <Spacer y={2} />
       <Link href="challenges/Chapter2">Capitolul 2</Link>
-      <Spacer />
+      <Spacer y={2} />
       <Link href="challenges/Chapter3">Capitolul 3</Link>
-      <Spacer />
+      <Spacer y={2} />
       <Link href="challenges/Chapter4">Capitolul 4</Link>
-      <Spacer />
+      <Spacer y={2} />
       <Link href="challenges/Chapter5">Capitolul 5</Link>
-      <Spacer />
+      <Spacer y={2} />
       <Link href="challenges/Chapter6">Capitolul 6</Link>
-      <Spacer />
-    </div>
+      <Spacer y={2} />
+    </>
   );
 }
 

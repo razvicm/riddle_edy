@@ -15,7 +15,9 @@ export default function Layout({ children }) {
           <Text h2>Pierdut printre stele</Text>
         </Link>
         <Spacer y={3} />
-        <Container>{children}</Container>
+        <Container alignItems="center" display="flex" direction="column">
+          {children}
+        </Container>
       </main>
       <footer className={styles.footer}>
         Copyright &copy; {new Date().getFullYear()}{" "}
