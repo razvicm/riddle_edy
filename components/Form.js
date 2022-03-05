@@ -12,6 +12,23 @@ function Form({ children, challenge }) {
 
       return
     }
+
+    // console.log(process.env.NEXT_PUBLIC_challenge1);
+    const chall = `NEXT_PUBLIC_${challenge}`
+    console.log(process.env[chall]);
+    if (process.env.NEXT_PUBLIC_challenge1 === value.toLowerCase()) {
+
+      setCorrectAnswer(true)
+      setWrongAnswer(false)
+    }
+
+    else {
+      setWrongAnswer(true)
+      setCorrectAnswer(false)
+    }
+
+    return;
+
     const res = await fetch("/api/hello", {
       method: 'POST',
       headers: {

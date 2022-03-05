@@ -1,6 +1,6 @@
-import styles from '../styles/Home.module.scss'
-import Image from 'next/image'
-
+import styles from "../styles/Home.module.scss";
+import Image from "next/image";
+import { Container, Link, Spacer, Text } from "@nextui-org/react";
 
 export default function Layout({ children }) {
   return (
@@ -10,8 +10,16 @@ export default function Layout({ children }) {
         <span>Inception Treasure Hunts </span>
         <span></span>
       </header>
-      <main className={styles.main}>{children}</main>
-      <footer className={styles.footer}>Copyright &copy; {new Date().getFullYear()} </footer>
+      <main className={styles.main}>
+        <Link href="/">
+          <Text h2>Pierdut printre stele</Text>
+        </Link>
+        <Spacer y={3} />
+        <Container>{children}</Container>
+      </main>
+      <footer className={styles.footer}>
+        Copyright &copy; {new Date().getFullYear()}{" "}
+      </footer>
     </div>
-  )
+  );
 }
