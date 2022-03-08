@@ -1,4 +1,11 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import {
+  Progress,
+  Spacer,
+  Text,
+  Radio,
+  Input,
+  Button,
+} from "@nextui-org/react";
 
 function Chapter1() {
   return (
@@ -8,15 +15,11 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 1</Text>
       <Spacer />
-      <Text>
-        Felicitari ati aflat combinatia pentru cutia neagra!
-        <br />
-        Acum ar fi recomandat sa treceti informatiile obtinute pe pagina
-        profilul criminal.
-        <br />
-        Intoarceti-va la locul unde ati primit plicul. <br /> Nu mai aveti
-        nevoie de indiciile T, J, G.
-      </Text>
+      <Text>Introdu codul din 3 cifre pentru repornirea sistemului.</Text>
+      <Spacer />
+      <Input placeholder="Introduceti codul" size="sm" type="tel" />
+      <Spacer />
+      <Button>Continua</Button>
     </>
   );
 }

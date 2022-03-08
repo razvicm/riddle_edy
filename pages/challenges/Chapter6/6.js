@@ -8,7 +8,9 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 1</Text>
       <Spacer />
-      <Text>Indiciul Q. Cineva a intrat in sistemul navei neautorizat.</Text>
+      <Text>
+        Scoateti din plic indiciile: N, H, X, U si inlaturati indiciile B si V.
+      </Text>
     </>
   );
 }

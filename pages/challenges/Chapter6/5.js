@@ -1,4 +1,11 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import {
+  Progress,
+  Spacer,
+  Text,
+  Radio,
+  Input,
+  Button,
+} from "@nextui-org/react";
 
 function Chapter1() {
   return (
@@ -6,22 +13,18 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={14} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 6</Text>
       <Spacer />
-      <iframe
-        width="100%"
-        height="250"
-        src="https://www.youtube.com/embed/zwoPO4hLZRw"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-      <Spacer />
+
       <Text>
-        Mostra este contaminata. ADN-ul este avariat si va dura o perioada mai
-        lunga scanarea.
+        Langa biserica se afla o usa deasupra ei este o cruce sculptata. In
+        dreapta crucii se afla un an iar in stanga un cuvat. Te rog sa introduci
+        cuvantul.
       </Text>
+      <Spacer />
+      <Input placeholder="Introduceti cuvantul" size="sm" />
+      <Spacer />
+      <Button>Continua</Button>
     </>
   );
 }

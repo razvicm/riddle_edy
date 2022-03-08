@@ -1,4 +1,11 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import {
+  Progress,
+  Spacer,
+  Text,
+  Radio,
+  Input,
+  Button,
+} from "@nextui-org/react";
 
 function Chapter1() {
   return (
@@ -6,32 +13,17 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={10} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 6</Text>
       <Spacer />
-      <iframe
-        width="100%"
-        height="250"
-        src="https://www.youtube.com/embed/60xoDjTUo98"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+
       <Spacer />
-      <Text>
-        * Urme de strangulare si hemoragie din nas <br />
-        * Hemoragie in ochi
-        <br />
-        * O plaga pe umar provocat de o lupta
-        <br />
-        * Mai multe plagi pe spate, dovezile unei lupte
-        <br />
-        Cauza mortii:
-        <br />
-        <br />
-        Hipoxia provocata din cauza strangularii, prima data a provocat
-        ameteala, pierderea cunostintei si dupa aceea moartea.
-      </Text>
+      <Text>Indtroduceti codul secret pentru ultima locatie.</Text>
+      <Spacer />
+      <Input placeholder="Introduceti codul" size="sm" />
+      <Spacer />
+      <Button>Continua</Button>
+
+      <Text>Urmatoarea locatie este: biserica din Piata Muzeului.</Text>
     </>
   );
 }

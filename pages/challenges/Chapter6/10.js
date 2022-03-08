@@ -15,18 +15,12 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 1</Text>
       <Spacer />
-      Din cutia neagra a navei nu am reusit sa scoatem informatii foarte utile,
-      dar macar am putut descarca lista pasagerilor si un scurt istoric despre
-      fiecare.
-      <br />
-      Urmatoarea locatie este mina parasita.
-      <br />
-      <Spacer />
-      Introduceti parola pentru capitolul 2
-      <Spacer />
-      <Input placeholder="Introduceti parola" size="sm" />
-      <Spacer />
-      <Button>Continua</Button>
+      <Text>
+        Acum ca totul este pregatit de decolare sper ca ati reusit sa
+        identificati ucigasul. Deplasati-va inapoi la orasul minerilor unde se
+        afla si naveta(locatia din cap 2), pentru a confrunta ucigasul. Acolo o
+        sa gasiti si pe cineva din echipaj care va va indruma.
+      </Text>
     </>
   );
 }
