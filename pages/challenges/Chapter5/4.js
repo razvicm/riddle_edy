@@ -11,27 +11,14 @@ function Chapter1() {
       <iframe
         width="100%"
         height="250"
-        src="https://www.youtube.com/embed/60xoDjTUo98"
+        src="https://www.youtube.com/embed/djF3y-oSRtY"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
       <Spacer />
-      <Text>
-        * Urme de strangulare si hemoragie din nas <br />
-        * Hemoragie in ochi
-        <br />
-        * O plaga pe umar provocat de o lupta
-        <br />
-        * Mai multe plagi pe spate, dovezile unei lupte
-        <br />
-        Cauza mortii:
-        <br />
-        <br />
-        Hipoxia provocata din cauza strangularii, prima data a provocat
-        ameteala, pierderea cunostintei si dupa aceea moartea.
-      </Text>
+      <Text>Scoateti din plic indiciul P.</Text>
     </>
   );
 }

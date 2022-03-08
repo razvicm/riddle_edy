@@ -6,21 +6,15 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={14} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 5</Text>
       <Spacer />
-      <iframe
-        width="100%"
-        height="250"
-        src="https://www.youtube.com/embed/zwoPO4hLZRw"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-      <Spacer />
+
       <Text>
-        Mostra este contaminata. ADN-ul este avariat si va dura o perioada mai
-        lunga scanarea.
+        Sunetul intr-un labirint preia proprietatiile unui lichid. Umple toate
+        golurile si parcurge toate traseele care ii permite labirintul. Deci
+        sarcina era simpla, trebuia sa urmarim inapoi traseul ecoului din
+        punctul in care a parasit labirintul pana la locul de unde a tras
+        ucigasul.
       </Text>
     </>
   );

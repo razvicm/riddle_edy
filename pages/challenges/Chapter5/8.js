@@ -6,16 +6,13 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={18} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 5</Text>
       <Spacer />
       <Text>
-        Felicitari ati aflat combinatia pentru cutia neagra!
-        <br />
-        Acum ar fi recomandat sa treceti informatiile obtinute pe pagina
-        profilul criminal.
-        <br />
-        Intoarceti-va la locul unde ati primit plicul. <br /> Nu mai aveti
-        nevoie de indiciile T, J, G.
+        Asupra ei nu am gasit multe indicii, doar o scrisoare din care reiese ca
+        a reusit sa dezvaluie identitatea ucigasului. Cel mai probabil pentru
+        asta trebuia sa si moara, dar din pacate locul unde era numele acestuia
+        era patata cu sange si nu am putut descifra nimic.
       </Text>
     </>
   );

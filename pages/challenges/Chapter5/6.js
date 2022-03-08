@@ -1,4 +1,11 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import {
+  Progress,
+  Spacer,
+  Text,
+  Radio,
+  Input,
+  Button,
+} from "@nextui-org/react";
 
 function Chapter1() {
   return (
@@ -6,9 +13,16 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={15} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 5</Text>
       <Spacer />
-      <Text>Indiciul Q. Cineva a intrat in sistemul navei neautorizat.</Text>
+      <Text>
+        Cautati indicatorul cu pescar aflat pe malul raului si introduceti
+        cuvantul al treilea de pe acesta.
+      </Text>
+      <Spacer />
+      <Input placeholder="Introduceti cuvantul" size="sm" />
+      <Spacer />
+      <Button>Continua</Button>
     </>
   );
 }

@@ -15,7 +15,9 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 5</Text>
       <Spacer />
-      Scoate din plic indiciul Y.
+      Nu dupa mult timp am gasit si locul de unde a fost impuscata Sharon. Nici
+      aici nu am gasit prea multe indicii, doar un singur cartus de glont de
+      lunetist si cateva fire de par blonde.
     </>
   );
 }

@@ -7,20 +7,9 @@ function Chapter1() {
       <Progress color="primary" value={7} />
       <Spacer />
       <Text h3>Capitolul 1</Text>
+
       <Spacer />
-      <iframe
-        width="100%"
-        height="250"
-        src="https://www.youtube.com/embed/zPNNn6xbn8c"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-      <Spacer />
-      <Text>
-        Am verificat locul crimei si am gasit cateva indicii interesante.
-      </Text>
+      <Text>Scoateti din plic indiciile: B si V</Text>
     </>
   );
 }

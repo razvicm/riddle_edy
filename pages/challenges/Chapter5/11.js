@@ -15,7 +15,15 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 5</Text>
       <Spacer />
-      Scoate din plic indiciul Y.
+      <Text>
+        Cautati crucea din varful muntelui pe ea se afla doua cuvinte.
+        Introduceti prima si ultima litera din primul cuvant si la fel pentru al
+        doilea.
+      </Text>
+      <Spacer />
+      <Input placeholder="Introduceti cuvantul" size="sm" />
+      <Spacer />
+      <Button>Continua</Button>
     </>
   );
 }

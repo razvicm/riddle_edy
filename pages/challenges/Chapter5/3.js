@@ -6,19 +6,18 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={9} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 5</Text>
       <Spacer />
       <Text>
-        Scoateti din plic indicile cu literele C, G, Q, J, T, harta si profilul
-        criminal. <br />
-        Pentru a rezolva ghicitoarea <b>J</b> trebuie sa raspundeti la
-        urmatoarele intrebari. Cuvintele pot fi marcare orizontal sau vertical
-        in tabel. Fiecare cuvant apare doar o singura data. <br />
-        Il folosim pentru masurarea timpului.
-        <br /> Obiect stelar care se roteste un jurul unei stele. <br />
-        Un metal galben auriu care contine mult cupru. Din el se fabrica tevi de
-        gaz si intalatiile sanitare. <br />O fiinta mitica cu urechi ascutite.
-        Apare si in Stapanul Inelelor.
+        Dupa ce am reusit sa producem suficient acid sulfuric si am construit
+        bateriile de rezerva am inceput transportul antimateriei. Cand aproape
+        toate recipientele au ajuns la destinatia lor finala din cheile din
+        apropiere s-a auzit o impuscatura. Cu totii eram siguri ca si acum
+        murise cineva, iar ucigasul si-a gasit a treia victima. Ecolul focului
+        de arma s-a auzit din zona x 8 y 1, dar asta nu insemna ca acolo s-a
+        tras. Intr-un sistem de chei, pesteri si prapastii, cum era in cazul
+        nostru undele sonore erau deviate in multe directii diferite pana ce
+        acestea au reusit sa parasesca labirintul natural din piatra.
       </Text>
     </>
   );
