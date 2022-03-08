@@ -1,16 +1,16 @@
 import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
 
-function About() {
+function Chapter1() {
   return (
     <>
       <Text h4>Progres total </Text>
-      <Progress color="primary" value={15} />
+      <Progress color="primary" value={5} />
       <Spacer />
       <Text h3>Capitolul 1</Text>
       <Spacer />
       <iframe
         width="100%"
-        // height="315"
+        height="250"
         src="https://www.youtube.com/embed/zPNNn6xbn8c"
         title="YouTube video player"
         frameBorder="0"
@@ -212,4 +212,4 @@ function About() {
   );
 }
 
-export default About;
+export default Chapter1;

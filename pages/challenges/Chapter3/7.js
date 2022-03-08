@@ -1,0 +1,97 @@
+import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+
+function Chapter1() {
+  return (
+    <>
+      <Text h4>Progres total </Text>
+      <Progress color="primary" value={15} />
+      <Spacer />
+      <Text h3>Capitolul 3</Text>
+      <Spacer />
+      Victima 2
+      <Spacer />
+      <Text>
+        <Text b> Urmele de bocanci:</Text>
+        <Radio.Group onChange={(e) => console.log(e)}>
+          <Radio value="A">
+            <Text>Cel mai probabil nu au revelanta cu crima</Text>
+          </Radio>
+          <Radio value="B">
+            <Text>Bocanci militari de femeie</Text>
+          </Radio>
+          <Radio value="C">
+            <Text>Bocanci militar de barbat</Text>
+          </Radio>
+        </Radio.Group>
+        <Spacer />
+
+        <Text b> Cartuse </Text>
+        <Radio.Group onChange={(e) => console.log(e)}>
+          <Radio value="A">
+            <Text>
+              Ucigasul nu stapanea bine arma, de aceea a tras de atatea ori
+            </Text>
+          </Radio>
+          <Radio value="B" size="md">
+            <Text>Ucigasul voia sa fie sigur ca victima a murit</Text>
+          </Radio>
+          <Radio value="C">
+            <Text>
+              Ucigasul isi cunostea victima si din furie a tras pana nu a mai
+              avut gloante
+            </Text>
+          </Radio>
+        </Radio.Group>
+        <Spacer />
+        <Text b> Cadavru </Text>
+        <Radio.Group onChange={(e) => console.log(e)}>
+          <Radio value="A">
+            <Text>Nu am aflat cui apartine cadavrul</Text>
+          </Radio>
+          <Radio value="B" size="md">
+            <Text>Inca o victima a ucigasului</Text>
+          </Radio>
+          <Radio value="C">
+            <Text>Cadavrul nu are nimic de-a face cu fapta</Text>
+          </Radio>
+        </Radio.Group>
+        <Spacer />
+        <Text b> Sangele </Text>
+        <Radio.Group onChange={(e) => console.log(e)}>
+          <Radio value="A">
+            <Text>Sangele ii apartine ucigasului</Text>
+          </Radio>
+          <Radio value="B" size="md">
+            <Text>Sangele ii apartine jurnalistului</Text>
+          </Radio>
+          <Radio value="C">
+            <Text>Sangele apartine cadavrului de la locul faptei</Text>
+          </Radio>
+        </Radio.Group>
+        <Spacer />
+        <Text b> Lipsa cadavru </Text>
+        <Radio.Group onChange={(e) => console.log(e)}>
+          <Radio value="A">
+            <Text>
+              Ucigasul are un complice care l-a ajutat la transportarea
+              cadavrului
+            </Text>
+          </Radio>
+          <Radio value="B" size="md">
+            <Text>
+              Ucigasul este antrenat si a reusit singur sa transporte cadavrul
+            </Text>
+          </Radio>
+          <Radio value="C">
+            <Text>Cadavrul a fost dus de un animal din zona</Text>
+          </Radio>
+        </Radio.Group>
+        <Spacer />
+      </Text>
+      <Spacer />
+      <Spacer />
+    </>
+  );
+}
+
+export default Chapter1;

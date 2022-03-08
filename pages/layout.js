@@ -15,7 +15,7 @@ export default function Layout({ children }) {
           <Text h2>Pierdut printre stele</Text>
         </Link>
         <Spacer y={3} />
-        <Container alignItems="center" display="flex" direction="column">
+        <Container alignItems="center" display="flex" direction="column" fluid>
           {children}
         </Container>
       </main>
