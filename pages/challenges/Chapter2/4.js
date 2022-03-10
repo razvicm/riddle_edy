@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -27,11 +28,15 @@ function Chapter1() {
         pe care inca nu il intelegem. Pe o masa din apropiere este un joc de
         rummy inca neterminat cu o notita de pe care aparent lipseste ceva.
         Foarte interesant. <br /> La o alta masa cineva nu a terminat o partida
-        de X 0, dar cel mai ciudat lucru era tabla de sah care se afla pe o alta
+        de X0, dar cel mai ciudat lucru era tabla de sah care se afla pe o alta
         masa. Sub fiecare pion se aflau cateva litere care in combinatia corecta
         pareau sa formeze un cod. Langa tabla se mai afla si o formula
-        matematica care nu prea are niciun sens R= X+Y+Z.
+        matematica care nu prea are sens R = X+Y+Z.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter2/3">Inapoi</Link>
+        <Link href="/challenges/Chapter2/5">Mai departe</Link>
+      </div>
     </>
   );
 }

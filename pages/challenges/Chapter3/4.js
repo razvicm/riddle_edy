@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -28,6 +29,10 @@ function Chapter1() {
         incarcatorul in victima.
         <br />* victima a avut o problema personala cu ucigasul.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter3/3">Inapoi</Link>
+        <Link href="/challenges/Chapter3/5">Mai departe</Link>
+      </div>
     </>
   );
 }

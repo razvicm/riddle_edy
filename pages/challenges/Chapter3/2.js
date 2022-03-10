@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -19,7 +20,7 @@ function Chapter1() {
       ></iframe>
       <Spacer />
       <Text>
-        John Ezekiel <br />
+        Jhon Ezekiel <br />
         * testul ADN a aratat ca sangele e al reporterului.
         <br />
         * cadavrul nu este la locul faptei.
@@ -28,6 +29,10 @@ function Chapter1() {
         cadavrul de la locul faptei.
         <br />
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter3/1">Inapoi</Link>
+        <Link href="/challenges/Chapter3/3">Mai departe</Link>
+      </div>
     </>
   );
 }

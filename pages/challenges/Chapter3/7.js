@@ -1,6 +1,27 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Button, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
+import React from "react";
 
 function Chapter1() {
+  const [answers, setAnswers] = React.useState({});
+  const [correctAnswer, setCorrectAnswer] = React.useState(false);
+  const [wrongAnswer, setWrongAnswer] = React.useState(false);
+  const checkAnswers = () => {
+    console.log({ answers });
+    if (
+      (answers.a === "B" || answers.a === "C") &&
+      answers.b === "C" &&
+      answers.c === "C" &&
+      answers.d === "B" &&
+      answers.e === "B"
+    ) {
+      setCorrectAnswer(true);
+      setWrongAnswer(false);
+    } else {
+      setWrongAnswer(true);
+      setCorrectAnswer(false);
+    }
+  };
   return (
     <>
       <Text h4>Progres total </Text>
@@ -12,7 +33,7 @@ function Chapter1() {
       <Spacer />
       <Text>
         <Text b> Urmele de bocanci:</Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
+        <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, a: e }))}>
           <Radio value="A">
             <Text>Cel mai probabil nu au revelanta cu crima</Text>
           </Radio>
@@ -26,7 +47,7 @@ function Chapter1() {
         <Spacer />
 
         <Text b> Cartuse </Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
+        <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, b: e }))}>
           <Radio value="A">
             <Text>
               Ucigasul nu stapanea bine arma, de aceea a tras de atatea ori
@@ -44,7 +65,7 @@ function Chapter1() {
         </Radio.Group>
         <Spacer />
         <Text b> Cadavru </Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
+        <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, c: e }))}>
           <Radio value="A">
             <Text>Nu am aflat cui apartine cadavrul</Text>
           </Radio>
@@ -57,7 +78,7 @@ function Chapter1() {
         </Radio.Group>
         <Spacer />
         <Text b> Sangele </Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
+        <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, d: e }))}>
           <Radio value="A">
             <Text>Sangele ii apartine ucigasului</Text>
           </Radio>
@@ -70,7 +91,7 @@ function Chapter1() {
         </Radio.Group>
         <Spacer />
         <Text b> Lipsa cadavru </Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
+        <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, e: e }))}>
           <Radio value="A">
             <Text>
               Ucigasul are un complice care l-a ajutat la transportarea
@@ -89,7 +110,23 @@ function Chapter1() {
         <Spacer />
       </Text>
       <Spacer />
-      <Spacer />
+      <Button onClick={checkAnswers}>Verifica</Button>
+      {correctAnswer && (
+        <Text color="success">
+          Felicitari! Raspunsurile sunt corecte. Poti continua.
+        </Text>
+      )}
+      {wrongAnswer && (
+        <Text color="error">
+          Unul sau mai multe raspunsuri sunt gresite. Incearca din nou.
+        </Text>
+      )}
+      <p style={navigationStyles}>
+        <Link href="/challenges/Chapter3/6">Inapoi</Link>
+        {correctAnswer && (
+          <Link href="/challenges/Chapter3/8">Mai departe</Link>
+        )}
+      </p>
     </>
   );
 }

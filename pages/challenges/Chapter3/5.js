@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -28,6 +29,10 @@ function Chapter1() {
         <br />* proprietarul ori este o femeie cu piciorul mai mare ori un
         barbat cu piciorul mai mic.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter3/4">Inapoi</Link>
+        <Link href="/challenges/Chapter3/6">Mai departe</Link>
+      </div>
     </>
   );
 }

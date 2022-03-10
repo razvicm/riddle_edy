@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -18,6 +19,10 @@ function Chapter1() {
         allowFullScreen
       ></iframe>
       <Spacer />
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter3/2">Inapoi</Link>
+        <Link href="/challenges/Chapter3/4">Mai departe</Link>
+      </div>
     </>
   );
 }

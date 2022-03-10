@@ -1,14 +1,22 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
     <>
       <Text h4>Progres total </Text>
-      <Progress color="primary" value={15} />
+      <Progress color="primary" value={6} />
       <Spacer />
       <Text h3>Capitolul 1</Text>
       <Spacer />
-      <Text>Indiciul Q. Cineva a intrat in sistemul navei neautorizat.</Text>
+      <Text>
+        {" "}
+        Verificati indiciul Q. Cineva a intrat in sistemul navei neautorizat.
+      </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter1/5">Inapoi</Link>
+        <Link href="/challenges/Chapter1/7">Mai departe</Link>
+      </div>
     </>
   );
 }

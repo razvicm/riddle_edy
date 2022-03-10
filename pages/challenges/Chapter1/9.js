@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -61,7 +62,7 @@ function Chapter1() {
         </li>
         <li>
           <Text>
-            Jhone Ezekiel: 36 ani, jurnalist, a terminat Jurnalismul, se
+            Jhon Ezekiel: 36 ani, jurnalist, a terminat Jurnalismul, se
             deplaseasa spre Sistemul Sigma, formeaza un cuplu cu Sharon.
           </Text>
         </li>
@@ -122,6 +123,10 @@ function Chapter1() {
       <Text>
         Parola pentru capitolul 2 este: <b>electricitate</b>.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter1/8">Inapoi</Link>
+        <Link href="/challenges/Chapter1/10">Mai departe</Link>
+      </div>
     </>
   );
 }

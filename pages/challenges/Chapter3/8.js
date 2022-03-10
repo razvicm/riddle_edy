@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -6,7 +7,7 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={18} />
       <Spacer />
-      <Text h3>Capitolul 2</Text>
+      <Text h3>Capitolul 3</Text>
       <Spacer />
       <Text>
         Dupa ce am analizat tot locul si am notat toate indicile am verificat si
@@ -15,6 +16,10 @@ function Chapter1() {
         <Spacer />
         Scoateti din plic indiciile W si K.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter3/7">Inapoi</Link>
+        <Link href="/challenges/Chapter3/9">Mai departe</Link>
+      </div>
     </>
   );
 }

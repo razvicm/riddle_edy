@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -21,11 +22,15 @@ function Chapter1() {
       <Text>
         Nu am gasit prea multe lucruri la locul faptei, un cadavru nu exista,
         dar din urmele de sange gasite eram aproape sigur ca nimeni nu ar fi
-        putut supravietui atacului. Am gasit mai multe cartusuri de gloante, o
-        urma de bocanci, o geanta in care se afla o tableta si un mort intr-un
+        putut supravietui atacului. Am gasit mai multe cartuse de gloante, o
+        urma de bocanc, o geanta in care se afla o tableta si un mort intr-un
         sac negru cel mai probabil un pasager care nu a supravietuit aterizarea.
         Am gasit si un mormant sapat si desigur o sapa.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter2/8">Inapoi</Link>
+        <Link href="/challenges/Chapter3/2">Mai departe</Link>
+      </div>
     </>
   );
 }

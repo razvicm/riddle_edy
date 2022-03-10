@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../utils";
 
 function Chapter1() {
   return (
@@ -32,6 +33,10 @@ function Chapter1() {
         emite din nou toxinele ucigase. Planeta trebuia parasita cat mai rapid,
         dar pentru asta trebuia mai intai sa fie gasit ucigasul.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter2/5">Inapoi</Link>
+        <Link href="/challenges/Chapter2/7">Mai departe</Link>
+      </div>
     </>
   );
 }
