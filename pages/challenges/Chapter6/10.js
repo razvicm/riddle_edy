@@ -13,7 +13,7 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={15} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 6</Text>
       <Spacer />
       <Text>
         Acum ca totul este pregatit de decolare sper ca ati reusit sa

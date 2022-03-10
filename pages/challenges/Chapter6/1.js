@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (
@@ -22,6 +23,10 @@ function Chapter1() {
         cea mai apropiata poarta interstelara care se afla la circa 0.75 ani
         lumina de pozitia noastra.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter5/16">Inapoi</Link>
+        <Link href="/challenges/Chapter6/2">Mai departe</Link>
+      </div>
     </>
   );
 }

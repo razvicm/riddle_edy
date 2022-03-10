@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (
@@ -6,7 +7,7 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={15} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 5</Text>
       <Spacer />
       <iframe
         width="100%"
@@ -30,6 +31,10 @@ function Chapter1() {
         <br />* Moartea a fost cauzata de leziunile interne provocate de
         proiectil.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter5/8">Inapoi</Link>
+        <Link href="/challenges/Chapter5/10">Mai departe</Link>
+      </div>
     </>
   );
 }

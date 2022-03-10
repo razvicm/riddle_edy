@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (
@@ -6,7 +7,7 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={15} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 4</Text>
       <Spacer />
 
       <Text>
@@ -27,6 +28,10 @@ function Chapter1() {
         portie de material verde. Materialul verde intra in contact cu gazul si
         asa se formeaza si mai mult material verde.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter4/8">Inapoi</Link>
+        <Link href="/challenges/Chapter5/1">Mai departe</Link>
+      </div>
     </>
   );
 }

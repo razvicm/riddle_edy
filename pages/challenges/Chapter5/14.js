@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (
@@ -8,95 +9,78 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 5</Text>
       <Spacer />
+      <iframe
+        width="100%"
+        height="250"
+        src="https://www.youtube.com/embed/Z7nyGj9TmLI"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+      <Spacer />
       <Text>
-        <Text b> Autopsia:</Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
-          <Radio value="A">
-            <Text>
-              Sharon a murit pe loc dupa ce a fost doborata de glontul
-              ucigasului.
-            </Text>
-          </Radio>
-          <Radio value="B">
-            <Text>
-              Sharon a murit doar dupa cateva minute dupa ce a fost impuscata.
-            </Text>
-          </Radio>
-          <Radio value="C">
-            <Text>Sharon mai era in viata cand a fost gasita</Text>
-          </Radio>
-        </Radio.Group>
-        <Spacer />
-
-        <Text b> Scrisoarea </Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
-          <Radio value="A">
-            <Text>Ucigasul este un barbat</Text>
-          </Radio>
-          <Radio value="B" size="md">
-            <Text>Ucigasul este o femeie</Text>
-          </Radio>
-          <Radio value="C">
-            <Text>Ucigasul are de-a face cu Headshot</Text>
-          </Radio>
-        </Radio.Group>
-        <Spacer />
-        <Text b> Cartus </Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
-          <Radio value="A">
-            <Text>Cartusul provine dintr-un sniper militar</Text>
-          </Radio>
-          <Radio value="B" size="md">
-            <Text>Cartusul provine dintr-un pistol normal</Text>
-          </Radio>
-          <Radio value="C">
-            <Text>Cartusul provine dintr-un pump-gun</Text>
-          </Radio>
-        </Radio.Group>
-        <Spacer />
-        <Text b> Firele de par </Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
-          <Radio value="A">
-            <Text>Firele nu au nimic de-a face cu crima</Text>
-          </Radio>
-          <Radio value="B" size="md">
-            <Text>
-              Fry este ucigasul deoarece s-au gasit firele ei de par la locul
-              faptei{" "}
-            </Text>
-          </Radio>
-          <Radio value="C">
-            <Text>
-              Cu firele de par a lui Fry a reusit ucigasul sa deschida seiful
-              unde se tineau armele
-            </Text>
-          </Radio>
-        </Radio.Group>
-        <Spacer />
-        <Text b> Pozitia tragatorului </Text>
-        <Radio.Group onChange={(e) => console.log(e)}>
-          <Radio value="A">
-            <Text>
-              Pozitia, conditiile meteorologice si distanta plus faptul ca
-              Sharon era doborata cu un singur glont arata ca ucigasul este
-              profesionist in folosirea aceste tip de arma.
-            </Text>
-          </Radio>
-          <Radio value="B" size="md">
-            <Text>
-              Ucigasul a avut mare noroc ca a putut-o impusca pe Sharon.
-            </Text>
-          </Radio>
-          <Radio value="C">
-            <Text>
-              Sharon a fost impuscata dintr-un alt loc ,dupa care indiciile au
-              fost aduse aici cpentru a induce detectivii in eroare.
-            </Text>
-          </Radio>
-        </Radio.Group>
-        <Spacer />
+        * Cartus 7.68 x 50 mm.
+        <br /> * Este un glont standard in foarte multe pusti de lunetist.
+        <br /> * Cum numai un cartus a fost gasit la fata locului dovedeste ca
+        tragatorul este un profesionist cu o asemenea arma.
+        <br />
       </Text>
       <Spacer />
+
+      <iframe
+        width="100%"
+        height="250"
+        src="https://www.youtube.com/embed/31MX5K9pK_4"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+      <Spacer />
+      <Text>
+        Carolyn Fry <br />
+        * ADN- ul arata ca parul apartine copilotului. <br />
+        * Asta ar putea dovedi cum a deschis ucigasul dulapul de arme. <br />*
+        Totusi intrebarea ramane daca Fry este cel care a tras sau firul de par
+        a fost lasat ca si o urma falsa !?
+      </Text>
+      <Spacer />
+
+      <iframe
+        width="100%"
+        height="250"
+        src="https://www.youtube.com/embed/N6Og_TBsBxE"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+      <Spacer />
+      <Text>
+        * distanta: 503 metri
+        <br />
+        * puterea vantului : 35 km/h
+        <br />
+        * unghiul tragerii: 43,2 °<br />
+        In acesti parametri sa nimeresti si sa ucizi o tinta miscatoare cu o
+        singura lovitura dovedeste profesionalism. Dar se poate ca omul nostru a
+        avut doar noroc.
+      </Text>
+      <Spacer />
+      <iframe
+        width="100%"
+        height="250"
+        src="https://www.youtube.com/embed/WCCnFEpyz_o"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter5/13">Inapoi</Link>
+        <Link href="/challenges/Chapter5/15">Mai departe</Link>
+      </div>
     </>
   );
 }

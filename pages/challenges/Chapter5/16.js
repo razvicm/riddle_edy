@@ -9,15 +9,10 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 5</Text>
       <Spacer />
-      <Text>
-        Cu ajutorul hartii digitale facute de dronele noastre, destul de rapid
-        am reusit sa gasim locul crimei. A treia victima era Sharon, care zacea
-        intr-o balta de sange impuscate din spate aparent a incercat sa fuga de
-        criminal.
-      </Text>
+      <Text>Nu mai aveti nevoie de indiciile: Y si P.</Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/6">Inapoi</Link>
-        <Link href="/challenges/Chapter5/8">Mai departe</Link>
+        <Link href="/challenges/Chapter5/15">Inapoi</Link>
+        <Link href="/challenges/Chapter6/1">Mai departe</Link>
       </div>
     </>
   );

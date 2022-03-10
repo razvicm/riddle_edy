@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (
@@ -19,6 +20,10 @@ function Chapter1() {
         nostru undele sonore erau deviate in multe directii diferite pana ce
         acestea au reusit sa parasesca labirintul natural din piatra.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter5/2">Inapoi</Link>
+        <Link href="/challenges/Chapter5/4">Mai departe</Link>
+      </div>
     </>
   );
 }

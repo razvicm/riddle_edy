@@ -5,7 +5,9 @@ import {
   Radio,
   Input,
   Button,
+  Link,
 } from "@nextui-org/react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (
@@ -16,6 +18,10 @@ function Chapter1() {
       <Text h3>Capitolul 5</Text>
       <Spacer />
       Scoate din plic indiciul Y.
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter5/9">Inapoi</Link>
+        <Link href="/challenges/Chapter5/11">Mai departe</Link>
+      </div>
     </>
   );
 }

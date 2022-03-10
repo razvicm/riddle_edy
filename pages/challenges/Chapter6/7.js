@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (
@@ -41,6 +42,10 @@ function Chapter1() {
         hartii pe care se aflau forme geometrice si sub ele o bucata dintr-un
         numar digital.
       </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter6/6">Inapoi</Link>
+        <Link href="/challenges/Chapter6/8">Mai departe</Link>
+      </div>
     </>
   );
 }

@@ -5,25 +5,57 @@ import {
   Radio,
   Input,
   Button,
+  Link,
 } from "@nextui-org/react";
+import { useState } from "react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
+  const [answer, setAnswer] = useState("");
+  const [correctAnswer, setCorrectAnswer] = useState(false);
+  const [wrongAnswer, setWrongAnswer] = useState(false);
+  const checkAnswers = () => {
+    if (answer.toLowerCase() == "montana") {
+      setCorrectAnswer(true);
+      setWrongAnswer(false);
+    } else {
+      setWrongAnswer(true);
+      setCorrectAnswer(false);
+    }
+  };
   return (
     <>
       <Text h4>Progres total </Text>
-      <Progress color="primary" value={15} />
+      <Progress color="primary" value={70} />
       <Spacer />
       <Text h3>Capitolul 5</Text>
       <Spacer />
-      <Text>
-        Cautati crucea din varful muntelui pe ea se afla doua cuvinte.
-        Introduceti prima si ultima litera din primul cuvant si la fel pentru al
-        doilea.
-      </Text>
+
+      <Text>Gaseste locul de unde s-a tras.</Text>
       <Spacer />
-      <Input placeholder="Introduceti cuvantul" size="sm" />
+      <Input
+        placeholder="Introduceti locul"
+        size="sm"
+        onChange={(e) => setAnswer(e.target.value)}
+        value={answer}
+      />
       <Spacer />
-      <Button>Continua</Button>
+      <Button onClick={checkAnswers}>Continua</Button>
+      {correctAnswer && (
+        <Text color="success">
+          Felicitari! Raspunsul este corect. Poti continua.
+        </Text>
+      )}
+      {wrongAnswer && (
+        <Text color="error">Raspunsul este gresit. Incearca din nou.</Text>
+      )}
+      <Spacer />
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter5/10">Inapoi</Link>
+        {correctAnswer && (
+          <Link href="/challenges/Chapter5/12">Mai departe</Link>
+        )}
+      </div>
     </>
   );
 }

@@ -1,4 +1,5 @@
-import { Progress, Spacer, Text, Radio } from "@nextui-org/react";
+import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (
@@ -9,7 +10,13 @@ function Chapter1() {
       <Text h3>Capitolul 4</Text>
       <Spacer />
 
-      <Text>Locatia urmatoare este: voievod</Text>
+      <Text>
+        Locatia urmatoare este: <b>Voievod</b>
+      </Text>
+      <div style={navigationStyles}>
+        <Link href="/challenges/Chapter4/1">Inapoi</Link>
+        <Link href="/challenges/Chapter4/3">Mai departe</Link>
+      </div>
     </>
   );
 }
