@@ -7,7 +7,7 @@ import {
   Button,
   Link,
 } from "@nextui-org/react";
-import { navigationStyles } from "../../utils";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   return (

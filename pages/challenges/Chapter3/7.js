@@ -1,5 +1,5 @@
 import { Progress, Spacer, Text, Radio, Button, Link } from "@nextui-org/react";
-import { navigationStyles } from "../../utils";
+import { navigationStyles } from "../../../components/utils";
 import React from "react";
 
 function Chapter1() {

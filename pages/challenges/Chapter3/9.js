@@ -8,7 +8,7 @@ import {
   Link,
 } from "@nextui-org/react";
 import { useState } from "react";
-import { navigationStyles } from "../../utils";
+import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
   const [answer, setAnswer] = useState("");
