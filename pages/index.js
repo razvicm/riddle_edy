@@ -1,8 +1,11 @@
 import { Button, Link, Spacer } from "@nextui-org/react";
+import { useRouter } from "next/dist/client/router";
 
 import React from "react";
 
 function HomePage() {
+  const router = useRouter();
+  console.log({ router });
   return (
     <>
       <Link href="challenges/Chapter1/1">Capitolul 1</Link>

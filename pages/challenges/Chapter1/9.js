@@ -106,7 +106,7 @@ function Chapter1() {
         </li>
         <li>
           <Text>
-            Vaako: 34 ani, soldat la trupele speciale, are un antrenament
+            Vakko: 34 ani, soldat la trupele speciale, are un antrenament
             militar profesionist in spate, face parte din echipa lui William J.
             Nu a supravietuit aterizarii.
           </Text>

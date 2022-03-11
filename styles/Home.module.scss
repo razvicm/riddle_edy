@@ -8,6 +8,13 @@
   height: 100vh;
 }
 
+.btnModals {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 15px;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
