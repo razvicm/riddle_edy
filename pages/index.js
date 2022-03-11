@@ -1,13 +1,15 @@
 import { Button, Link, Spacer } from "@nextui-org/react";
-import { useRouter } from "next/dist/client/router";
+import Head from "next/head";
 
 import React from "react";
 
 function HomePage() {
-  const router = useRouter();
-  console.log({ router });
   return (
     <>
+      <Head>
+        <title>Pierdut printre stele</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Link href="challenges/Chapter1/1">Capitolul 1</Link>
       <Spacer y={2} />
       <Link href="challenges/Chapter2/1">Capitolul 2</Link>

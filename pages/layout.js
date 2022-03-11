@@ -15,11 +15,12 @@ export default function Layout({ children }) {
   const closeHandler = () => {
     setVisibleIndicii(false);
     setVisibleList(false);
-    console.log("closed");
   };
+  // const shouldDisplayPassengerList =
+  //   router.pathname.split("/")[2] !== "Chapter1" && router.pathname !== "/";
+
   const shouldDisplayPassengerList =
     router.pathname.split("/")[2] !== "Chapter1";
-  console.log({ router });
   return (
     <div className={styles.container}>
       <ModalIndicii visible={visibleIndicii} closeHandler={closeHandler} />

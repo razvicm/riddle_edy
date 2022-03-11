@@ -94,6 +94,34 @@ export default function ModalIndicii({ visible, closeHandler }) {
               </Collapse>
             </Collapse.Group>
           </Collapse>
+          <Collapse title="A/A1">
+            <Text>Ajutor pentru a rezolva indiciul S</Text>
+          </Collapse>
+          <Collapse title="S">
+            <Collapse.Group>
+              <Collapse title="Hint 1">
+                <Text>
+                  Raspunde la intrebarea: Ce lipseste de pe masa? (ia in
+                  considerare si descrierea despre continutul unui joc de
+                  rummy).
+                </Text>
+              </Collapse>
+              <Collapse title="Hint 2">
+                <Text>Uita-te cu care litera se poate combina piesa lipsa</Text>
+              </Collapse>
+              <Collapse title="Hint 3">
+                <Text>
+                  {" "}
+                  Raspunsul este F5. <br />
+                  De pe masa lipseste 5-ul rosu iar pe hartie litera F este de
+                  culoarea rosie.
+                </Text>
+              </Collapse>
+            </Collapse.Group>
+          </Collapse>
+          <Collapse title="M">
+            <Text>Ajutor pentru a rezolva indiciul Z</Text>
+          </Collapse>
 
           {/* end collapse */}
         </Collapse.Group>
