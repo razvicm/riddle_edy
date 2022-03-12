@@ -4,15 +4,12 @@ import { navigationStyles } from "../../../components/utils";
 function Chapter1() {
   return (
     <>
-      <Text h4>Progres total </Text>
-      <Progress color="primary" value={3} />
-      <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Good Ending</Text>
       <Spacer />
       <iframe
         width="100%"
         height="250"
-        src="https://www.youtube.com/embed/zPNNn6xbn8c"
+        src="https://www.youtube.com/embed/sbcYJgG7ZWY"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,11 +17,12 @@ function Chapter1() {
       ></iframe>
       <Spacer />
       <Text>
-        Am verificat locul crimei si am gasit cateva indicii interesante.
+        * Materialul analizat contine ADN-ul detectivului Richard Ridick. <br />
+        * Se pare ca detectivul a devenit suspectul principal.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter1/1">Inapoi</Link>
-        <Link href="/challenges/Chapter1/3">Mai departe</Link>
+        <Link href="/challenges/GoodEnding/1">Inapoi</Link>
+        <Link href="/challenges/GoodEnding/3">Mai departe</Link>
       </div>
     </>
   );

@@ -26,7 +26,7 @@ function Chapter1() {
   return (
     <>
       <Text h4>Progres total </Text>
-      <Progress color="primary" value={10} />
+      <Progress color="primary" value={88} />
       <Spacer />
       <Text h3>Capitolul 6</Text>
       <Spacer />
