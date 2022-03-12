@@ -6,10 +6,6 @@ import React from "react";
 function HomePage() {
   return (
     <>
-      <Head>
-        <title>Pierdut printre stele</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <Link href="challenges/Chapter1/1">Capitolul 1</Link>
       <Spacer y={2} />
       <Link href="challenges/Chapter2/1">Capitolul 2</Link>

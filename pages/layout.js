@@ -16,11 +16,11 @@ export default function Layout({ children }) {
     setVisibleIndicii(false);
     setVisibleList(false);
   };
-  // const shouldDisplayPassengerList =
-  //   router.pathname.split("/")[2] !== "Chapter1" && router.pathname !== "/";
-
   const shouldDisplayPassengerList =
-    router.pathname.split("/")[2] !== "Chapter1";
+    router.pathname.split("/")[2] !== "Chapter1" && router.pathname !== "/";
+
+  // const shouldDisplayPassengerList =
+  //   router.pathname.split("/")[2] !== "Chapter1";
   return (
     <div className={styles.container}>
       <ModalIndicii visible={visibleIndicii} closeHandler={closeHandler} />
@@ -32,7 +32,7 @@ export default function Layout({ children }) {
       </header>
       <div className={styles.btnModals}>
         <Text h4 onClick={handlerIndicii}>
-          Indicii
+          Ajutor indicii
         </Text>
         {shouldDisplayPassengerList && (
           <Text h4 onClick={handlerList}>
