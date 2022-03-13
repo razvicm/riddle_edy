@@ -32,7 +32,9 @@ function Chapter1() {
       <Text h3>Capitolul 3</Text>
       <Spacer />
 
-      <Text>Introduceti codul cheie</Text>
+      <Text>
+        Introduceti codul <b>cheie</b>
+      </Text>
       <Spacer />
       <Input
         placeholder="Introduceti codul"

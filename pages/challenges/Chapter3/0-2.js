@@ -22,7 +22,11 @@ function Chapter1() {
         informatii.
         <br /> Ultimul care a sunat a fost Teodor, dar el a si oferit cele mai
         multe si mai precise indicii.
+        <Spacer />
+        Dupa ce ati rezolvat enigma, puteti merge mai departe, la locatia
+        descoperita.
       </Text>
+
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter3/0-1">
           <Link>Inapoi</Link>

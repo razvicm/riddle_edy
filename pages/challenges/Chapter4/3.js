@@ -32,8 +32,8 @@ function Chapter1() {
       <Text h3>Capitolul 4</Text>
       <Spacer />
       <Text>
-        Cautati focul vesnic si introduceti cuvantul in care se descrie o alta
-        etnie.
+        Cautati focul vesnic si introduceti cuvantul care denumeste o
+        <b> etnie</b>.
       </Text>
       <Spacer />
       <Input

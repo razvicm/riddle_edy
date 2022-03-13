@@ -16,6 +16,8 @@ function Chapter1() {
         blocata cu un cod. Trebuia neaparat sa aflam codul.
         <Spacer />
         Scoateti din plic indiciile W si K.
+        <Spacer />
+        Dupa ce ati descoperit codul, puteti merge mai departe.
       </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter3/7">

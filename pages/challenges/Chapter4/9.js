@@ -28,6 +28,8 @@ function Chapter1() {
         prin picurator in recipientul care se afla sub el si in care este deja o
         portie de material verde. Materialul verde intra in contact cu gazul si
         asa se formeaza si mai mult material verde.
+        <Spacer />
+        Dupa ce ati descoperit codul, puteti merge mai departe.
       </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter4/8">

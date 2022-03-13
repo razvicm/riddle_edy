@@ -31,7 +31,9 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 4</Text>
       <Spacer />
-      <Text>Introduceti codul seit</Text>
+      <Text>
+        Introduceti codul <b>seit</b>
+      </Text>
       <Spacer />
       <Input
         placeholder="Introduceti codul"

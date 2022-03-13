@@ -8,7 +8,7 @@ function Chapter1() {
       <Text h4>Progres total </Text>
       <Progress color="primary" value={64} />
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+      <Text h3>Capitolul 5</Text>
       <Spacer />
       <iframe
         width="100%"

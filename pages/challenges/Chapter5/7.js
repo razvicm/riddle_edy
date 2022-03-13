@@ -13,7 +13,7 @@ function Chapter1() {
       <Text>
         Cu ajutorul hartii digitale facute de dronele noastre, destul de rapid
         am reusit sa gasim locul crimei. A treia victima era Sharon, care zacea
-        intr-o balta de sange impuscate din spate aparent a incercat sa fuga de
+        intr-o balta de sange impuscata din spate. Aparent a incercat sa fuga de
         criminal.
       </Text>
       <div style={navigationStyles}>

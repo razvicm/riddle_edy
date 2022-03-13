@@ -33,7 +33,7 @@ function Chapter1() {
       <Spacer />
       <Text>
         Urmatoarea locatie este dealul Cetatuii.
-        <br /> Mergeti si cautati crucea din varf, iar pe ea se afla doua
+        <br /> Mergeti si cautati crucea din varf, iar pe ea veti gasi doua
         cuvinte. Introduceti prima si ultima litera din primul cuvant si la fel
         pentru al doilea.
       </Text>

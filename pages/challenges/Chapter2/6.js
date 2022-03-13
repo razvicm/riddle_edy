@@ -16,17 +16,17 @@ function Chapter1() {
         deschis si naveta mai avea destula energie pentru a porni bordul navei.
         Am aflat mai multe despre sistemul in care ne aflam. Planeta noastra era
         a doua planeta dintr-un sistem de 3 planete care inconjurau un sistem
-        binar de stele care era compus dintr-o stea de dimesiunea soarelui si un
-        pitic rosu. Cele 2 stele se roteau in jurul unui punct comun
-        gravitational si pe langa asta in jurul uni stele albastre numita si
-        gigant albastru. Din cauza asta pe planeta nu apunea niciodata soarele,
+        binar de stele care era compus dintr-o stea de dimensiunea soarelui si
+        un pitic rosu. Cele 2 stele se roteau in jurul unui punct comun
+        gravitational si pe langa asta in jurul unei stele albastre numita si
+        gigant albastru. Din cauza asta, pe planeta nu apunea niciodata soarele,
         odata era vizibil gigantul albastru si odata sistemul binar de stele.
-        Baza de minerit era destul de profitabila si crestea in continuu pana in
+        Baza de minerit era destul de profitabila si crestea permanent pana in
         ziua in care s-a produs tragedia. In urma a iesit la iveala ca,
-        culturile de ciuperci din pesterile apropiate, odata la 50 de ani
+        culturile de ciuperci din pesterile apropiate, odata la 50 de ani,
         emiteau substante halucinogene care duceau in nebunie organismele care
         le inhalau. Persoanele devenisera sensibile la lumina si din cauza asta
-        s-au retras in pesteri unde au devenit violeti si isi atacau colegii.
+        s-au retras in pesteri unde au devenit violenti si isi atacau colegii.
         Cadavrele ramase in urma hraneau urmatoarea generatie de ciuperci.
         Supravietuirorii si cei care au fost imuni fata de toxine au evacuat in
         masa planeta lasand in urma un oras fantoma. Problema mare era ca
