@@ -16,8 +16,7 @@ function Chapter1() {
   const [correctAnswer, setCorrectAnswer] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState(false);
   const checkAnswers = () => {
-    console.log({ answer });
-    if (answer.toLowerCase() === "electricitate") {
+    if (answer.toLowerCase() == "ntc") {
       setCorrectAnswer(true);
       setWrongAnswer(false);
     } else {
@@ -25,27 +24,21 @@ function Chapter1() {
       setCorrectAnswer(false);
     }
   };
-
   return (
     <>
-      <Text h4>Progres total </Text>
-      <Progress color="primary" value={15} />
+      <Text h3>Intro</Text>
       <Spacer />
-      <Text h3>Capitolul 1</Text>
+
       <Spacer />
       <Text>
-        Din cutia neagra a navei nu am reusit sa scoatem informatii foarte
-        utile, dar macar am putut descarca lista pasagerilor si un scurt istoric
-        despre fiecare.
+        Ajunsi la locatie va rog sa cautati monumentul pe care se afla o catusa.
         <br />
-        Urmatoarea locatie este mina parasita.
-        <br />
-        <Spacer />
-        Introduceti parola pentru capitolul 2
+        Introduceti din primul rand litera 3, din al dolea rand litera 6, si din
+        randul trei litera 5
       </Text>
       <Spacer />
       <Input
-        placeholder="Introduceti parola"
+        placeholder="Introduceti codul"
         size="sm"
         onChange={(e) => setAnswer(e.target.value)}
         value={answer}
@@ -62,11 +55,9 @@ function Chapter1() {
       )}
       <Spacer />
       <div style={navigationStyles}>
-        <NextLink href="/challenges/Chapter1/9">
-          <Link>Inapoi</Link>
-        </NextLink>
+        <span></span>
         {correctAnswer && (
-          <NextLink href="/challenges/Chapter2/1">
+          <NextLink href="/challenges/Chapter1/1">
             <Link>Mai departe</Link>
           </NextLink>
         )}

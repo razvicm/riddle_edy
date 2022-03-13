@@ -11,7 +11,7 @@ function Chapter1() {
       <Text h3>Capitolul 1</Text>
       <Spacer />
       <Text>
-        Felicitari ati aflat combinatia pentru cutia neagra!
+        Felicitari! Ati aflat combinatia pentru cutia neagra!
         <br />
         Acum ar fi recomandat sa treceti informatiile obtinute pe pagina
         profilul criminal.

@@ -21,6 +21,8 @@ function Chapter1() {
         Un metal galben auriu care contine mult cupru. Din el se fabrica tevi de
         gaz si intalatiile sanitare. <br />O fiinta mitica cu urechi ascutite.
         Apare si in Stapanul Inelelor.
+        <Spacer />
+        Dupa ce ati rezolvat indiciile C,G,J si T puteti merge mai departe
       </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter1/2">

@@ -34,7 +34,7 @@ function Chapter1() {
       <Spacer />
 
       <Text>
-        Cautati monumentul negru la baza caruie se gasesc 7 lumanari.
+        Cautati monumentul negru la baza caruia se gasesc 7 lumanari.
         <Spacer />
         Introduceti anul care este trecut de trei ori pe acesta.
       </Text>

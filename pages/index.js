@@ -7,6 +7,10 @@ import React from "react";
 function HomePage() {
   return (
     <>
+      <NextLink href="challenges/Intro/1">
+        <Link>Intro</Link>
+      </NextLink>
+      <Spacer y={2} />
       <NextLink href="challenges/Chapter1/1">
         <Link>Capitolul 1</Link>
       </NextLink>

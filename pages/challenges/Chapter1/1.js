@@ -23,7 +23,7 @@ function Chapter1() {
         aparent strangulat.
       </Text>
       <div style={navigationStyles}>
-        <NextLink href="/">
+        <NextLink href="/challenges/Intro/1">
           <Link>Inapoi</Link>
         </NextLink>
         <NextLink href="/challenges/Chapter1/2">
