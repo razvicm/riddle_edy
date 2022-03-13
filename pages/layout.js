@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/Home.module.scss";
 import Image from "next/image";
 import { Container, Link, Modal, Spacer, Text } from "@nextui-org/react";
+import NextLink from "next/link";
 import { useRouter } from "next/dist/client/router";
 import ModalIndicii from "../components/ModalIndicii";
 import ModalLista from "../components/ModalLista";
@@ -41,9 +42,9 @@ export default function Layout({ children }) {
         )}
       </div>
       <main className={styles.main}>
-        <Link href="/">
+        <NextLink href="/">
           <Text h2>Pierdut printre stele</Text>
-        </Link>
+        </NextLink>
         <Spacer y={3} />
         <Container alignItems="center" display="flex" direction="column" fluid>
           {children}

@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import Layout from "./layout";
 import { NextUIProvider } from "@nextui-org/react";
+import NextLink from "next/link";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {

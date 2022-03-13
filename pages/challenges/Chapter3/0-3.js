@@ -16,7 +16,7 @@ function Chapter1() {
   const [correctAnswer, setCorrectAnswer] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState(false);
   const checkAnswers = () => {
-    if (answer == 421) {
+    if (answer.toLowerCase() == 1921) {
       setCorrectAnswer(true);
       setWrongAnswer(false);
     } else {
@@ -27,16 +27,19 @@ function Chapter1() {
   return (
     <>
       <Text h4>Progres total </Text>
-      <Progress color="primary" value={96} />
+      <Progress color="primary" value={27} />
       <Spacer />
-      <Text h3>Capitolul 6</Text>
+      <Text h3>Capitolul 3</Text>
       <Spacer />
-      <Text>Introdu codul din 3 cifre pentru repornirea sistemului.</Text>
+
+      <Text>
+        Cautati-i pe Romulus si Remus si introduceti anul care este trecut cu
+        numere romane.
+      </Text>
       <Spacer />
       <Input
-        placeholder="Introduceti codul"
+        placeholder="Introduceti anul"
         size="sm"
-        type="tel"
         onChange={(e) => setAnswer(e.target.value)}
         value={answer}
       />
@@ -52,9 +55,9 @@ function Chapter1() {
       )}
       <Spacer />
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter6/7">Inapoi</Link>
+        <Link href="/challenges/Chapter3/0-2">Inapoi</Link>
         {correctAnswer && (
-          <Link href="/challenges/Chapter6/9">Mai departe</Link>
+          <Link href="/challenges/Chapter3/1">Mai departe</Link>
         )}
       </div>
     </>

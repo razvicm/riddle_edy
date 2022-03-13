@@ -6,6 +6,7 @@ import {
   Input,
   Button,
 } from "@nextui-org/react";
+import NextLink from "next/link";
 
 function Chapter1() {
   return (

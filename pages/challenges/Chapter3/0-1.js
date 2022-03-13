@@ -6,16 +6,14 @@ function Chapter1() {
   return (
     <>
       <Text h4>Progres total </Text>
-      <Progress color="primary" value={19} />
+      <Progress color="primary" value={25} />
       <Spacer />
-      <Text h3>Capitolul 2</Text>
+      <Text h3>Capitolul 3</Text>
       <Spacer />
-      <Text>
-        Scoateti din plic indiciile indicile A, A1, M, S, Z, L, L1, R, O
-      </Text>
+      <Text>Scoateti din plic indiciile I, F, D</Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter2/2">Inapoi</Link>
-        <Link href="/challenges/Chapter2/4">Mai departe</Link>
+        <Link href="/challenges/Chapter3/0-0">Inapoi</Link>
+        <Link href="/challenges/Chapter3/0-2">Mai departe</Link>
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import { Progress, Spacer, Text, Input, Button, Link } from "@nextui-org/react";
+import NextLink from "next/link";
 import { useState } from "react";
 import { navigationStyles } from "../../../components/utils";
 

@@ -1,4 +1,5 @@
 import { Collapse, Modal, Text } from "@nextui-org/react";
+import NextLink from "next/link";
 import Image from "next/image";
 import React from "react";
 

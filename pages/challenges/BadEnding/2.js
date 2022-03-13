@@ -1,4 +1,5 @@
 import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import NextLink from "next/link";
 import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
@@ -21,8 +22,12 @@ function Chapter1() {
         * Se pare ca detectivul a devenit suspectul principal.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/BadEnding/1">Inapoi</Link>
-        <Link href="/challenges/BadEnding/3">Mai departe</Link>
+        <NextLink href="/challenges/BadEnding/1">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/BadEnding/3">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

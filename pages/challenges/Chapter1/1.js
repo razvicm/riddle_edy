@@ -1,4 +1,5 @@
 import { Progress, Spacer, Text, Link } from "@nextui-org/react";
+import NextLink from "next/link";
 import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
@@ -9,16 +10,7 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 1</Text>
       <Spacer />
-      <iframe
-        width="100%"
-        height="250"
-        src="https://www.youtube.com/embed/zPNNn6xbn8c"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-      <Spacer />
+
       <Text>
         Am ajuns si la ultimul loc din zona aterizarii unde inca nu am verificat
         daca se afla inginerul de bord George Oven. Era o bucata destul de mare
@@ -31,8 +23,12 @@ function Chapter1() {
         aparent strangulat.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/">Inapoi</Link>
-        <Link href="/challenges/Chapter1/2">Mai departe</Link>
+        <NextLink href="/">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter1/2">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

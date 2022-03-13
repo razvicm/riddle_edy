@@ -1,4 +1,5 @@
 import { Progress, Spacer, Text, Radio, Link, Button } from "@nextui-org/react";
+import NextLink from "next/link";
 import { navigationStyles } from "../../../components/utils";
 import React from "react";
 

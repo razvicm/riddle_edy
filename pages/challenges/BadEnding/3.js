@@ -1,4 +1,5 @@
 import { Progress, Spacer, Text, Radio, Link } from "@nextui-org/react";
+import NextLink from "next/link";
 import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
@@ -36,13 +37,15 @@ function Chapter1() {
         nevinovata dar si-a bagat nasul unde nu trebuia.
         <br /> Ce m-a bucurat este faptul ca desi nu ai avut dovezi foarte
         clare, ai ucis fara scrupule un nevinovat . Asadar, chiar daca
-        neintentionat, ai ales calea mea de pe care nu mai ai sanse de
+        neintentionat, ai ales calea mea, de pe care nu mai ai sanse de
         intoarcere. De acum ai numai doua posibilitati, ori te sacrifici pe tine
         insuti ori pe ceilalti din nava pentru a putea continua misiunea
         inceputa de mine acum cativa ani.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/BadEnding/2">Inapoi</Link>
+        <NextLink href="/challenges/BadEnding/2">
+          <Link>Inapoi</Link>
+        </NextLink>
       </div>
     </>
   );

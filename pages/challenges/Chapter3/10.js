@@ -7,6 +7,7 @@ import {
   Button,
   Link,
 } from "@nextui-org/react";
+import NextLink from "next/link";
 import { navigationStyles } from "../../../components/utils";
 
 function Chapter1() {
