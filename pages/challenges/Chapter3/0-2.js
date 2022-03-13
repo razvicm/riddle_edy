@@ -24,8 +24,12 @@ function Chapter1() {
         multe si mai precise indicii.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter3/0-1">Inapoi</Link>
-        <Link href="/challenges/Chapter3/0-3">Mai departe</Link>
+        <NextLink href="/challenges/Chapter3/0-1">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter3/0-3">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

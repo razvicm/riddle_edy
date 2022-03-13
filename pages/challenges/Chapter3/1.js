@@ -35,8 +35,12 @@ function Chapter1() {
         Am gasit si un mormant sapat si desigur, o sapa.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter3/0-0">Inapoi</Link>
-        <Link href="/challenges/Chapter3/2">Mai departe</Link>
+        <NextLink href="/challenges/Chapter3/0-3">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter3/2">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

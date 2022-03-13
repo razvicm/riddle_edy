@@ -21,8 +21,12 @@ function Chapter1() {
       ></iframe>
       <Spacer />
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter3/2">Inapoi</Link>
-        <Link href="/challenges/Chapter3/4">Mai departe</Link>
+        <NextLink href="/challenges/Chapter3/2">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter3/4">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

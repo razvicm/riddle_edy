@@ -22,8 +22,12 @@ function Chapter1() {
         acestea au reusit sa parasesca labirintul natural din piatra.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/2">Inapoi</Link>
-        <Link href="/challenges/Chapter5/4">Mai departe</Link>
+        <NextLink href="/challenges/Chapter5/2">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter5/4">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

@@ -24,8 +24,12 @@ function Chapter1() {
         de lunetist si cateva fire de par blonde.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/12">Inapoi</Link>
-        <Link href="/challenges/Chapter5/14">Mai departe</Link>
+        <NextLink href="/challenges/Chapter5/12">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter5/14">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

@@ -43,7 +43,9 @@ function Chapter1() {
         indepartat? Ce alegi? Cheia e la tine.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/GoodEnding/2">Inapoi</Link>
+        <NextLink href="/challenges/GoodEnding/2">
+          <Link>Inapoi</Link>
+        </NextLink>
       </div>
     </>
   );

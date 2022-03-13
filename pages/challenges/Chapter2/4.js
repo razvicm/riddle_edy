@@ -35,8 +35,12 @@ function Chapter1() {
         matematica care nu prea are sens R = X+Y+Z.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter2/3">Inapoi</Link>
-        <Link href="/challenges/Chapter2/5">Mai departe</Link>
+        <NextLink href="/challenges/Chapter2/3">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter2/5">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

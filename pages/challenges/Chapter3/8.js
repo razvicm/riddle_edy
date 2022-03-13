@@ -18,8 +18,12 @@ function Chapter1() {
         Scoateti din plic indiciile W si K.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter3/7">Inapoi</Link>
-        <Link href="/challenges/Chapter3/9">Mai departe</Link>
+        <NextLink href="/challenges/Chapter3/7">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter3/9">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

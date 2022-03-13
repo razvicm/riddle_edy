@@ -44,8 +44,12 @@ function Chapter1() {
         numar digital.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter6/6">Inapoi</Link>
-        <Link href="/challenges/Chapter6/8">Mai departe</Link>
+        <NextLink href="/challenges/Chapter6/6">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter6/8">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

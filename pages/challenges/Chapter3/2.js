@@ -31,8 +31,12 @@ function Chapter1() {
         <br />
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter3/1">Inapoi</Link>
-        <Link href="/challenges/Chapter3/3">Mai departe</Link>
+        <NextLink href="/challenges/Chapter3/1">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter3/3">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

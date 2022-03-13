@@ -19,8 +19,12 @@ function Chapter1() {
         secol.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter1/10">Inapoi</Link>
-        <Link href="/challenges/Chapter2/2">Mai departe</Link>
+        <NextLink href="/challenges/Chapter1/10">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter2/2">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

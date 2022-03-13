@@ -25,8 +25,12 @@ function Chapter1() {
         lumina de pozitia noastra.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/16">Inapoi</Link>
-        <Link href="/challenges/Chapter6/2">Mai departe</Link>
+        <NextLink href="/challenges/Chapter5/16">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter6/2">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

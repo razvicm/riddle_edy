@@ -35,8 +35,12 @@ function Chapter1() {
         dar pentru asta trebuia mai intai sa fie gasit ucigasul.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter2/5">Inapoi</Link>
-        <Link href="/challenges/Chapter2/7">Mai departe</Link>
+        <NextLink href="/challenges/Chapter2/5">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter2/7">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

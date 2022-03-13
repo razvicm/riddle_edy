@@ -20,8 +20,12 @@ function Chapter1() {
         nevoie de indiciile T, J, G.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter1/7">Inapoi</Link>
-        <Link href="/challenges/Chapter1/9">Mai departe</Link>
+        <NextLink href="/challenges/Chapter1/7">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter1/9">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

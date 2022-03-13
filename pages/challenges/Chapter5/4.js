@@ -22,8 +22,12 @@ function Chapter1() {
       <Spacer />
       <Text>Scoateti din plic indiciul P.</Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/3">Inapoi</Link>
-        <Link href="/challenges/Chapter5/5">Mai departe</Link>
+        <NextLink href="/challenges/Chapter5/3">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter5/5">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

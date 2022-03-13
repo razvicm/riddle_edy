@@ -15,8 +15,12 @@ function Chapter1() {
         semnalului de pe dispozitiv trebuie sa gasim drumul corect.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter6/2">Inapoi</Link>
-        <Link href="/challenges/Chapter6/4">Mai departe</Link>
+        <NextLink href="/challenges/Chapter6/2">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter6/4">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

@@ -15,8 +15,12 @@ function Chapter1() {
         Locatia urmatoare este: <b>Voievod</b>
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter4/1">Inapoi</Link>
-        <Link href="/challenges/Chapter4/3">Mai departe</Link>
+        <NextLink href="/challenges/Chapter4/1">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter4/3">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

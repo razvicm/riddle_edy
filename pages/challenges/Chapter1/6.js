@@ -15,8 +15,12 @@ function Chapter1() {
         Verificati indiciul Q. Cineva a intrat in sistemul navei neautorizat.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter1/5">Inapoi</Link>
-        <Link href="/challenges/Chapter1/7">Mai departe</Link>
+        <NextLink href="/challenges/Chapter1/5">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter1/7">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

@@ -33,8 +33,12 @@ function Chapter1() {
         proiectil.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/8">Inapoi</Link>
-        <Link href="/challenges/Chapter5/10">Mai departe</Link>
+        <NextLink href="/challenges/Chapter5/8">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter5/10">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

@@ -14,8 +14,12 @@ function Chapter1() {
         Scoateti din plic indiciile indicile A, A1, M, S, Z, L, L1, R, O
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter2/2">Inapoi</Link>
-        <Link href="/challenges/Chapter2/4">Mai departe</Link>
+        <NextLink href="/challenges/Chapter2/2">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter2/4">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

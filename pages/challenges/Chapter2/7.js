@@ -20,8 +20,12 @@ function Chapter1() {
         allowFullScreen
       ></iframe>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter2/6">Inapoi</Link>
-        <Link href="/challenges/Chapter2/8">Mai departe</Link>
+        <NextLink href="/challenges/Chapter2/6">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter2/8">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

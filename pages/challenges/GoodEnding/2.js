@@ -22,8 +22,12 @@ function Chapter1() {
         * Se pare ca detectivul a devenit suspectul principal.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/GoodEnding/1">Inapoi</Link>
-        <Link href="/challenges/GoodEnding/3">Mai departe</Link>
+        <NextLink href="/challenges/GoodEnding/1">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/GoodEnding/3">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

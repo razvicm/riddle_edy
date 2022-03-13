@@ -17,8 +17,12 @@ function Chapter1() {
         era patata cu sange si nu am putut descifra nimic.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/7">Inapoi</Link>
-        <Link href="/challenges/Chapter5/9">Mai departe</Link>
+        <NextLink href="/challenges/Chapter5/7">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter5/9">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

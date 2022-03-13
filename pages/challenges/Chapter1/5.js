@@ -25,8 +25,12 @@ function Chapter1() {
         lunga scanarea.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter1/4">Inapoi</Link>
-        <Link href="/challenges/Chapter1/6">Mai departe</Link>
+        <NextLink href="/challenges/Chapter1/4">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter1/6">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

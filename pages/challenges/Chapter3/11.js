@@ -20,8 +20,12 @@ function Chapter1() {
       <Spacer />
       <Text>Puteti pune deoparte indiciile K, D, F</Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter3/10">Inapoi</Link>
-        <Link href="/challenges/Chapter4/1">Mai departe</Link>
+        <NextLink href="/challenges/Chapter3/10">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter4/1">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

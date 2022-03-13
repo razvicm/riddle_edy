@@ -19,8 +19,12 @@ function Chapter1() {
         nou lista de pasageri si abilitatile lor.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter4/3">Inapoi</Link>
-        <Link href="/challenges/Chapter4/5">Mai departe</Link>
+        <NextLink href="/challenges/Chapter4/3">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter4/5">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

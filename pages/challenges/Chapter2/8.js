@@ -12,8 +12,12 @@ function Chapter1() {
       <Spacer />
       <Text>Dintre indiciile din al doilea capitol pastrati doar Z si L1</Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter2/7">Inapoi</Link>
-        <Link href="/challenges/Chapter3/0-0">Mai departe</Link>
+        <NextLink href="/challenges/Chapter2/7">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter3/0-0">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

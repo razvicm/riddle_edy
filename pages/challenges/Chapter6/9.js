@@ -18,8 +18,12 @@ function Chapter1() {
         sperand ca totul este pregatit de plecare.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter6/8">Inapoi</Link>
-        <Link href="/challenges/Chapter6/10">Mai departe</Link>
+        <NextLink href="/challenges/Chapter6/8">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter6/10">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

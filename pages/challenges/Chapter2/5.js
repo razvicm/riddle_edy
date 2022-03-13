@@ -51,9 +51,13 @@ function Chapter1() {
       )}
       <Spacer />
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter2/4">Inapoi</Link>
+        <NextLink href="/challenges/Chapter2/4">
+          <Link>Inapoi</Link>
+        </NextLink>
         {correctAnswer && (
-          <Link href="/challenges/Chapter2/6">Mai departe</Link>
+          <NextLink href="/challenges/Chapter2/6">
+            <Link>Mai departe</Link>
+          </NextLink>
         )}
       </div>
     </>

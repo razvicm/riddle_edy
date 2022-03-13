@@ -17,8 +17,12 @@ function Chapter1() {
         criminal.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/6">Inapoi</Link>
-        <Link href="/challenges/Chapter5/8">Mai departe</Link>
+        <NextLink href="/challenges/Chapter5/6">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter5/8">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

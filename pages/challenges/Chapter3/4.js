@@ -31,8 +31,12 @@ function Chapter1() {
         <br />* victima a avut o problema personala cu ucigasul.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter3/3">Inapoi</Link>
-        <Link href="/challenges/Chapter3/5">Mai departe</Link>
+        <NextLink href="/challenges/Chapter3/3">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter3/5">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

@@ -19,8 +19,12 @@ function Chapter1() {
         ucigasul.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter5/4">Inapoi</Link>
-        <Link href="/challenges/Chapter5/6">Mai departe</Link>
+        <NextLink href="/challenges/Chapter5/4">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter5/6">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

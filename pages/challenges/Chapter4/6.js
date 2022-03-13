@@ -24,8 +24,12 @@ function Chapter1() {
         trebuie doar sa prepare acidul.
       </Text>
       <div style={navigationStyles}>
-        <Link href="/challenges/Chapter4/5">Inapoi</Link>
-        <Link href="/challenges/Chapter4/7">Mai departe</Link>
+        <NextLink href="/challenges/Chapter4/5">
+          <Link>Inapoi</Link>
+        </NextLink>
+        <NextLink href="/challenges/Chapter4/7">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );

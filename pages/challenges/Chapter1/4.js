@@ -35,10 +35,12 @@ function Chapter1() {
         ameteala, pierderea cunostintei si dupa aceea moartea.
       </Text>
       <div style={navigationStyles}>
-        <NextLink>
-          <Link href="/challenges/Chapter1/3">Inapoi</Link>
+        <NextLink href="/challenges/Chapter1/3">
+          <Link>Inapoi</Link>
         </NextLink>
-        <Link href="/challenges/Chapter1/5">Mai departe</Link>
+        <NextLink href="/challenges/Chapter1/5">
+          <Link>Mai departe</Link>
+        </NextLink>
       </div>
     </>
   );
