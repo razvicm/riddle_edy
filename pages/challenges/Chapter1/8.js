@@ -16,8 +16,9 @@ function Chapter1() {
         Acum ar fi recomandat sa treceti informatiile obtinute pe pagina
         profilul criminal.
         <br />
-        Intoarceti-va la locul unde ati primit plicul. <br /> Nu mai aveti
-        nevoie de indiciile T, J, G.
+        Nu mai aveti nevoie de indiciile T, J, G.
+        <br />
+        <b>Intoarceti-va la locul in care ati primit plicul.</b>
       </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter1/7">

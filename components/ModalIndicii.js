@@ -22,7 +22,7 @@ export default function ModalIndicii({ visible, closeHandler }) {
         <Collapse.Group>
           <Collapse title="Q ">
             <Text>
-              Este un indiciu care te ajuta sa inteleg de ce a ucis faptasul
+              Este un indiciu care te ajuta sa intelegi de ce a ucis faptasul
             </Text>
           </Collapse>
           <Collapse title="C">
@@ -367,8 +367,8 @@ export default function ModalIndicii({ visible, closeHandler }) {
                   Raspunsul este: <br />
                   triunghi - AMD <br />
                   cerc - Windows <br />
-                  sfera - Xiaomi <br />
                   patrat - Huawei <br />
+                  sfera - Xiaomi <br />
                   dreptunghi - IBM <br />
                   romb - Android <br />
                   trapez - Apple <br />
@@ -379,7 +379,7 @@ export default function ModalIndicii({ visible, closeHandler }) {
             </Collapse.Group>
           </Collapse>
           <Collapse title="X">
-            <Text>Arata fiecare simbol ce logo este.</Text>
+            <Text>Arata fiecare procesor carei litere corespunde.</Text>
           </Collapse>
           <Collapse title="U">
             <Collapse.Group>
