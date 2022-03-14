@@ -15,8 +15,8 @@ function Chapter1() {
         Planeta pe care ne-am prabusit este una destul de ostila, fierbinte si
         cu putine rezerve de apa si aparent nelocuita. Din putinele date pe care
         am reusit sa le obtinem despre ea, a iesit la iveala ca era in
-        apropierea noastra o <b>mina care a fost parasita</b> in graba acum
-        jumatate de secol.
+        apropierea noastra o mina care a fost parasita in graba acum jumatate de
+        secol.
       </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter1/10">

@@ -215,7 +215,7 @@ export default function ModalIndicii({ visible, closeHandler }) {
               </Collapse>
               <Collapse title="Hint 3">
                 <Text>
-                  Raspuns: <br /> Cheie <b>terraform</b> <br />
+                  Raspuns: <br /> Cheie <b>terrbform</b> <br />
                   Seit <b>bombon</b>
                 </Text>
               </Collapse>

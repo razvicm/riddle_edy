@@ -23,9 +23,9 @@ function Chapter1() {
         <NextLink href="/challenges/Chapter1/7">
           <Link>Inapoi</Link>
         </NextLink>
-        <NextLink href="/challenges/Chapter1/9">
+        {/* <NextLink href="/challenges/Chapter1/9">
           <Link>Mai departe</Link>
-        </NextLink>
+        </NextLink> */}
       </div>
     </>
   );

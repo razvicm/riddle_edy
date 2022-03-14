@@ -38,7 +38,7 @@ function Chapter1() {
         utile, dar macar am putut descarca lista pasagerilor si un scurt istoric
         despre fiecare.
         <br />
-        Urmatoarea locatie este mina parasita.
+        Urmatoarea locatie este <b>mina parasita</b>.
         <br />
         <Spacer />
         Introduceti parola pentru capitolul 2
@@ -62,9 +62,10 @@ function Chapter1() {
       )}
       <Spacer />
       <div style={navigationStyles}>
-        <NextLink href="/challenges/Chapter1/9">
+        {/* <NextLink href="/challenges/Chapter1/9">
           <Link>Inapoi</Link>
-        </NextLink>
+        </NextLink> */}
+        <span></span>
         {correctAnswer && (
           <NextLink href="/challenges/Chapter2/1">
             <Link>Mai departe</Link>
