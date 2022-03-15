@@ -18,7 +18,9 @@ export default function Layout({ children }) {
     setVisibleList(false);
   };
   const shouldDisplayPassengerList =
-    router.pathname.split("/")[2] !== "Chapter1" && router.pathname !== "/";
+    router.pathname.split("/")[2] !== "Chapter1" &&
+    router.pathname.split("/")[2] !== "Intro" &&
+    router.pathname !== "/";
 
   // const shouldDisplayPassengerList =
   //   router.pathname.split("/")[2] !== "Chapter1";

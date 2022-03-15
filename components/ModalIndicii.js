@@ -359,7 +359,14 @@ export default function ModalIndicii({ visible, closeHandler }) {
               <Collapse title="Hint 1">
                 <Text>
                   Conform indiciului I, fiecare nota muzicala corespunde unei
-                  litere din alfabet.
+                  litere din alfabet.Acum, pentru fiecare nota avem litera de
+                  pornire la care adaugam si scadem numerele aflate deasupra.
+                  <Image
+                    src={"/imgIndicii/litere.JPG"}
+                    alt="logo"
+                    width={500}
+                    height={300}
+                  />
                 </Text>
               </Collapse>
               <Collapse title="Hint 2">
@@ -373,7 +380,12 @@ export default function ModalIndicii({ visible, closeHandler }) {
                   romb - Android <br />
                   trapez - Apple <br />
                   hexagon - Intel
-                  <br />
+                  <Image
+                    src={"/imgIndicii/note.jpg"}
+                    alt="logo"
+                    width={500}
+                    height={300}
+                  />
                 </Text>
               </Collapse>
             </Collapse.Group>
@@ -391,9 +403,9 @@ export default function ModalIndicii({ visible, closeHandler }) {
               </Collapse>
               <Collapse title="Hint 2">
                 <Text>
-                  In text gasesti o descriere foare precisa a trei simboluri.
-                  Daca reusesti sa descifrezi simbolurile cu indiciul I, vei
-                  gasi literele care iti lipsesc.
+                  In text gasesti descrierea celor trei simboluri. Daca reusesti
+                  sa descifrezi simbolurile cu indiciul I, vei gasi literele
+                  care iti lipsesc.
                 </Text>
               </Collapse>
               <Collapse title="Hint 3">
@@ -406,7 +418,13 @@ export default function ModalIndicii({ visible, closeHandler }) {
                   romb si Intel este hexagon.
                   <br />
                   Daca combinam cele 3 forme geometrice primim numarul:{" "}
-                  <b>421 </b>
+                  <b>421 </b> <br />
+                  <Image
+                    src={"/imgIndicii/Brai.JPG"}
+                    alt="logo"
+                    width={500}
+                    height={500}
+                  />
                 </Text>
               </Collapse>
             </Collapse.Group>

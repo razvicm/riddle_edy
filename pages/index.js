@@ -7,7 +7,7 @@ import React from "react";
 function HomePage() {
   return (
     <>
-      <NextLink href="challenges/Intro/1">
+      <NextLink href="challenges/Intro/0">
         <Link>Intro</Link>
       </NextLink>
       <Spacer y={2} />

@@ -31,10 +31,12 @@ function Chapter1() {
 
       <Spacer />
       <Text>
+        Prima locatie este <b>Baza Sud</b>.
+        <Spacer />
         Ajunsi la locatie va rog sa cautati monumentul pe care se afla o catusa.
         <br />
         Introduceti din primul rand litera 3, din al dolea rand litera 6, si din
-        randul trei litera 5
+        randul trei litera 5.
       </Text>
       <Spacer />
       <Input
@@ -55,7 +57,9 @@ function Chapter1() {
       )}
       <Spacer />
       <div style={navigationStyles}>
-        <span></span>
+        <NextLink href="/challenges/Intro/0">
+          <Link>Inapoi</Link>
+        </NextLink>
         {correctAnswer && (
           <NextLink href="/challenges/Chapter1/1">
             <Link>Mai departe</Link>
