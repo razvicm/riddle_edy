@@ -33,10 +33,11 @@ function Chapter1() {
       <Text>
         Prima locatie este <b>Baza Sud</b>.
         <Spacer />
-        Ajunsi la locatie va rog sa cautati monumentul pe care se afla o catusa.
+        Ajunsi la locatie va rog sa cautati monumentul pe care se afla o pereche
+        de catuse.
         <br />
-        Introduceti din primul rand litera 3, din al dolea rand litera 6, si din
-        randul trei litera 5.
+        Introduceti din primul rand litera 3, din al doilea rand litera 6, si
+        din randul trei litera 5.
       </Text>
       <Spacer />
       <Input

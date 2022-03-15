@@ -34,6 +34,8 @@ function Chapter1() {
         De asemenea, ne puteti scrie si pe Messenger, in cazul in care nu
         reusiti sa treceti mai departe
         (https://www.facebook.com/InceptionTreasureHunts).
+        <Spacer />
+        Mult succes! 😉
       </Text>
       <Spacer />
 
