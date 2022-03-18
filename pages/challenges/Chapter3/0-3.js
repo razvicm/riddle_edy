@@ -39,6 +39,7 @@ function Chapter1() {
       <Spacer />
       <Input
         placeholder="Introduceti anul"
+        type="tel"
         size="sm"
         onChange={(e) => setAnswer(e.target.value)}
         value={answer}
