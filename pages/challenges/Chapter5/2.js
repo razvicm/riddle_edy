@@ -11,7 +11,9 @@ function Chapter1() {
       <Text h3>Capitolul 5</Text>
       <Spacer />
 
-      <Text>Nu mai aveti nevoie de indiciile: W, Z, L1, C si Q.</Text>
+      <Text>
+        Nu mai aveti nevoie de indiciile: <b>W, Z, L1, C si Q</b>.
+      </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter5/1">
           <Link>Inapoi</Link>

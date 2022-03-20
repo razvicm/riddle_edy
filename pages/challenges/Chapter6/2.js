@@ -11,7 +11,9 @@ function Chapter1() {
       <Text h3>Capitolul 6</Text>
 
       <Spacer />
-      <Text>Scoateti din plic indiciile: B si V</Text>
+      <Text>
+        Scoateti din plic indiciile <b> B si V</b>
+      </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter6/1">
           <Link>Inapoi</Link>

@@ -18,10 +18,10 @@ function Chapter1() {
         material sa intre in contact cu antimateria. Cilindri aveau propria
         sursa de energie care permitea transportarea lor, dar ca sa evitam o
         explozie uriasa datorita unei interferente in circuitul electric aveam
-        nevoie de o baterie de rezerva. Pentru o baterie externa aveam toate
-        componentele si materialele la indemana, mai putin acidul sulfuric care
-        trebuia produs de noi. Din computer am descarcat rapid o reteta. Acum
-        trebuie doar sa prepare acidul.
+        nevoie de o baterie de rezerva. <Spacer /> Pentru o baterie externa
+        aveam toate componentele si materialele la indemana, mai putin{" "}
+        <b>acidul sulfuric</b> care trebuia produs de noi. Din computer am
+        descarcat rapid o reteta. Acum trebuie doar sa preparam acidul.
       </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter4/5">

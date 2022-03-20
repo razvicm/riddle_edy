@@ -21,6 +21,7 @@ function Chapter1() {
         gravitational si pe langa asta in jurul unei stele albastre numita si
         gigant albastru. Din cauza asta, pe planeta nu apunea niciodata soarele,
         odata era vizibil gigantul albastru si odata sistemul binar de stele.
+        <Spacer />
         Baza de minerit era destul de profitabila si crestea permanent pana in
         ziua in care s-a produs tragedia. In urma a iesit la iveala ca,
         culturile de ciuperci din pesterile apropiate, odata la 50 de ani,
@@ -29,10 +30,11 @@ function Chapter1() {
         s-au retras in pesteri unde au devenit violenti si isi atacau colegii.
         Cadavrele ramase in urma hraneau urmatoarea generatie de ciuperci.
         Supravietuirorii si cei care au fost imuni fata de toxine au evacuat in
-        masa planeta lasand in urma un oras fantoma. Problema mare era ca
-        incidentul s-a intamplat acum 50 de ani deci ciupercile puteau oricand
-        emite din nou toxinele ucigase. Planeta trebuia parasita cat mai rapid,
-        dar pentru asta trebuia mai intai sa fie gasit ucigasul.
+        masa planeta lasand in urma un oras fantoma.
+        <Spacer /> Problema mare era ca incidentul s-a intamplat acum 50 de ani
+        deci ciupercile puteau oricand emite din nou toxinele ucigase. Planeta
+        trebuia parasita cat mai rapid, dar pentru asta trebuia mai intai sa fie
+        gasit ucigasul.
       </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter2/5">

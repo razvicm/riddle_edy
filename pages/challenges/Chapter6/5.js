@@ -16,7 +16,7 @@ function Chapter1() {
   const [correctAnswer, setCorrectAnswer] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState(false);
   const checkAnswers = () => {
-    if (answer.toLowerCase() == "reno") {
+    if (answer.toLowerCase().trim() == "reno") {
       setCorrectAnswer(true);
       setWrongAnswer(false);
     } else {
@@ -33,7 +33,7 @@ function Chapter1() {
       <Spacer />
 
       <Text>
-        Urmatoarea locatie este: biserica din Piata Muzeului.
+        Urmatoarea locatie este: <b>biserica din Piata Muzeului</b>.
         <Spacer />
         Langa biserica se afla o usa deasupra ei este o cruce sculptata. In
         dreapta crucii se afla un an iar in stanga un cuvant. Te rog sa

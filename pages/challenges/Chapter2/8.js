@@ -10,7 +10,9 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 2</Text>
       <Spacer />
-      <Text>Dintre indiciile din al doilea capitol pastrati doar Z si L1</Text>
+      <Text>
+        Dintre indiciile din al doilea capitol pastrati doar <b>Z si L1</b>
+      </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter2/7">
           <Link>Inapoi</Link>

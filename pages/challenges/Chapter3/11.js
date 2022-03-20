@@ -18,7 +18,9 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 3</Text>
       <Spacer />
-      <Text>Puteti pune deoparte indiciile K, D, F</Text>
+      <Text>
+        Puteti pune deoparte indiciile<b> K, D, F</b>
+      </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter3/10">
           <Link>Inapoi</Link>

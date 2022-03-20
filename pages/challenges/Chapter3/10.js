@@ -27,7 +27,7 @@ function Chapter1() {
         era momentan cel mai cautat om in galaxie. Pe langa reportajul scris mai
         era si un clip scurt aparent transmis in ziua plecarii noastre din
         Sistemul Triaj. Materialul video era destul de avariat, dar reiesea din
-        el ca ucigasul a fost identificat si acum este pe fuga. <br />
+        el ca ucigasul a fost identificat si acum este pe fuga. <Spacer />
         Din pacate partea unde este divulgate numele acestuia este avariata si
         nu putem afla identitatea ucigasului. Intr-un alt document prietenul
         nostru descrie in detaliu aterizarea noastra pe aceasta planeta, care nu
@@ -36,7 +36,7 @@ function Chapter1() {
         explodeze inainte de a ajunge solul. Copilotul a incercat sa schimbe
         unghiul navei desprinzand partea din spate a acesteia, care s-a prabusit
         necontrolat catre sol. Aceasta a adus modificarea dorita dar unghiul
-        inca nu era corespunzator. <br />
+        inca nu era corespunzator. <Spacer />
         Atunci copilotul a luat decizia sa desprinda si partea a navei unde se
         aflau pasagerii.Pasagerii ii pot multumi inginerului de bord care a
         facut manevra de decuplare inposibila, obligand astfel pilotul sa caute
@@ -47,7 +47,7 @@ function Chapter1() {
         la care moartea face parte din viata de zi cu zi si uciderea este o
         unelta ce o foloseste destul de des. Oare cata retinere avea asa o
         persoana sa ucida pe cineva care este pe cale sa dezvaluie un secret
-        care i-ar putea distruge cariera!? <br />
+        care i-ar putea distruge cariera!? <Spacer />
         Totusi cel mai dezgustator a fost ca sub fiecare articol se afla o suma
         de bani cel mai probabil suma care trebuia platit de victima sau de
         redactie pentru a ajunge la informatia necesara. Omul nostru este un

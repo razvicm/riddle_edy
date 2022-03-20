@@ -20,7 +20,9 @@ function Chapter1() {
         allowFullScreen
       ></iframe>
       <Spacer />
-      <Text>Scoateti din plic indiciul P.</Text>
+      <Text>
+        Scoateti din plic indiciul <b>P</b>.
+      </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter5/3">
           <Link>Inapoi</Link>

@@ -8,7 +8,6 @@ function Chapter1() {
   const [correctAnswer, setCorrectAnswer] = React.useState(false);
   const [wrongAnswer, setWrongAnswer] = React.useState(false);
   const checkAnswers = () => {
-    console.log({ answers });
     if (
       (answers.a === "B" || answers.a === "C") &&
       answers.b === "C" &&
@@ -30,7 +29,7 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 3</Text>
       <Spacer />
-      Victima 2
+      <Text> Victima 2</Text>
       <Spacer />
       <Text>
         <Text b> Urmele de bocanci:</Text>

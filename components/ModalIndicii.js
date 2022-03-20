@@ -346,7 +346,7 @@ export default function ModalIndicii({ visible, closeHandler }) {
                 <Text>
                   Raspuns: daca pornesti pe harta de pe X si parcurgi traseul
                   marcat pe V (fiecare bara arata directia si numarul de
-                  deasupra pasii) literele formeaza cuvantul calea lactee
+                  deasupra pasii) literele formeaza cuvantul <b>calea lactee</b>
                 </Text>
               </Collapse>
             </Collapse.Group>

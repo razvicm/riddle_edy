@@ -16,7 +16,7 @@ function Chapter1() {
   const [correctAnswer, setCorrectAnswer] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState(false);
   const checkAnswers = () => {
-    if (answer.toLowerCase() == "erni") {
+    if (answer.toLowerCase().trim() == "erni") {
       setCorrectAnswer(true);
       setWrongAnswer(false);
     } else {
@@ -32,10 +32,10 @@ function Chapter1() {
       <Text h3>Capitolul 5</Text>
       <Spacer />
       <Text>
-        Urmatoarea locatie este dealul Cetatuii.
+        Urmatoarea locatie este <b>dealul Cetatuii</b>.
         <br /> Mergeti si cautati crucea din varf, iar pe ea veti gasi doua
-        cuvinte. Introduceti prima si ultima litera din primul cuvant si la fel
-        pentru al doilea.
+        cuvinte. <Spacer /> Introduceti prima si ultima litera din primul cuvant
+        si la fel pentru al doilea.
       </Text>
       <Spacer />
       <Input

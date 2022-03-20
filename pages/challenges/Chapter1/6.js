@@ -11,6 +11,10 @@ function Chapter1() {
       <Text h3>Capitolul 1</Text>
       <Spacer />
       <Text> Verificati indiciul Q.</Text>
+      <Spacer />
+      <Text>
+        <i>Cineva neautorizat s-a logat in bordul navei</i>
+      </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter1/5">
           <Link>Inapoi</Link>

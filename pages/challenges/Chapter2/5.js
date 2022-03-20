@@ -16,7 +16,7 @@ function Chapter1() {
   const [correctAnswer, setCorrectAnswer] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState(false);
   const checkAnswers = () => {
-    if (answer.toLowerCase() === "pegasus") {
+    if (answer.toLowerCase().trim() === "pegasus") {
       setCorrectAnswer(true);
       setWrongAnswer(false);
     } else {
@@ -51,7 +51,7 @@ function Chapter1() {
       )}
       <Spacer />
       <div style={navigationStyles}>
-        <NextLink href="/challenges/Chapter2/4">
+        <NextLink href="/challenges/Chapter2/4a">
           <Link>Inapoi</Link>
         </NextLink>
         {correctAnswer && (

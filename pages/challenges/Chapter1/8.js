@@ -14,10 +14,11 @@ function Chapter1() {
         Felicitari! Ati aflat combinatia pentru cutia neagra!
         <br />
         Acum ar fi recomandat sa treceti informatiile obtinute pe pagina
-        profilul criminal.
-        <br />
-        Nu mai aveti nevoie de indiciile T, J, G.
-        <br />
+        profilului criminal. (trasaturi fizice, sexul - masculin/feminin/gender
+        necunoscut, complice - da/nu, etc.)
+        <Spacer />
+        Nu mai aveti nevoie de indiciile <b>T, J, G</b>.
+        <Spacer />
         <b>Intoarceti-va la locul in care ati primit plicul.</b>
       </Text>
       <div style={navigationStyles}>

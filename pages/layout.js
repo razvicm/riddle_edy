@@ -33,21 +33,24 @@ export default function Layout({ children }) {
         <span>Inception Treasure Hunts </span>
         <span></span>
       </header>
-      <div className={styles.btnModals}>
-        <Text h4 onClick={handlerIndicii}>
-          Ajutor indicii
-        </Text>
-        {shouldDisplayPassengerList && (
-          <Text h4 onClick={handlerList}>
-            Lista pasageri
-          </Text>
-        )}
-      </div>
+
       <main className={styles.main}>
         <NextLink href="/">
           <Text h2>Pierdut printre stele</Text>
         </NextLink>
-        <Spacer y={3} />
+        <Spacer />
+        <div className={styles.btnModals}>
+          <Text h4 onClick={handlerIndicii} color="darkcyan">
+            Ajutor indicii
+          </Text>
+          {shouldDisplayPassengerList && (
+            <Text h4 onClick={handlerList}>
+              Lista pasageri
+            </Text>
+          )}
+        </div>
+        <Spacer />
+
         <Container alignItems="center" display="flex" direction="column" fluid>
           {children}
         </Container>

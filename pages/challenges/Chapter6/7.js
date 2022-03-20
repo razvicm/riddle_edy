@@ -22,20 +22,23 @@ function Chapter1() {
         erau notate trei simboluri pe care le-am mai vazut undeva dar nu imi mai
         aduceam aminte unde. Fiecare simbol era compus din trei randuri iar
         fiecare rand avea loc de doua puncte.
-        <Spacer /> Primul Simbol: • in primul rand punctul alb se afla pe partea
-        dreapta • in al doilea rand erau vizibile ambele puncte albe • si in al
-        treilea rand erau vizibile ambele puncte
+        <Spacer /> <b>Primul Simbol</b>:<br /> • in primul rand punctul alb se
+        afla pe partea dreapta
+        <br /> • in al doilea rand erau vizibile ambele puncte albe
+        <br /> • si in al treilea rand erau vizibile ambele puncte
         <Spacer />
-        Simbolul doi: • in primul rand nu este vizibil niciun punct alb • in
-        randul doi punctul alb se afla pe partea dreapta • in randul trei ambele
-        puncte albe sunt vizibile <Spacer />
-        Simbolul trei: • in primul rand rand punctul alb se afla pe partea
-        dreapta • in al doilea rand nu este vizibil nici un punct alb • si in al
-        treilea rand erau vizibile ambele puncte
-        <Spacer /> Sub cele trei simboluri se afla ochiul lui Horus, un simbol
-        egiptean cu care daca nu ma insel m-am mai intalnit de multe ori in
-        calatoria noastra. Dupa ce procesoarele au fost schimbate ,trebuie doar
-        sa repornesti sistemul introducand un cod din 3 cifre.
+        <b>Simbolul doi</b>:<br /> • in primul rand nu este vizibil niciun punct
+        alb
+        <br /> • in randul doi punctul alb se afla pe partea dreapta
+        <br /> • in randul trei ambele puncte albe sunt vizibile <Spacer />
+        <b>Simbolul trei</b>:<br /> • in primul rand rand punctul alb se afla pe
+        partea dreapta
+        <br /> • in al doilea rand nu este vizibil nici un punct alb
+        <br /> • si in al treilea rand erau vizibile ambele puncte
+        <Spacer /> Sub cele trei simboluri se afla <b>ochiul lui Horus</b>, un
+        simbol egiptean cu care daca nu ma insel m-am mai intalnit de multe ori
+        in calatoria noastra. Dupa ce procesoarele au fost schimbate ,trebuie
+        doar sa repornesti sistemul introducand un cod din 3 cifre.
         <Spacer /> Pe langa descrierea detaliata cum se schimba procesorul, am
         mai gasit si alte indicii si obiecte in apropiere. O schita cu mai multe
         tipuri de procesoare si pe fiecare era o litera din alfabet. Pe langa

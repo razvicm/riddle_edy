@@ -10,7 +10,9 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 5</Text>
       <Spacer />
-      <Text>Nu mai aveti nevoie de indiciile: Y si P.</Text>
+      <Text>
+        Nu mai aveti nevoie de indiciile:<b> Y si P</b>.
+      </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter5/15">
           <Link>Inapoi</Link>

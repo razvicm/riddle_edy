@@ -35,7 +35,9 @@ function Chapter1() {
             </Text>
           </Radio>
           <Radio value="B">
-            <Text>Biletelul nu are nimic de-a face cu moarte inginerului.</Text>
+            <Text>
+              Biletelul nu are nimic de-a face cu moartea inginerului.
+            </Text>
           </Radio>
           <Radio value="C">
             <Text>
@@ -60,8 +62,8 @@ function Chapter1() {
           </Radio>
           <Radio value="C">
             <Text>
-              Inafara de faptul Oven a fost strangulat nu am reusit sa aflam mai
-              multe detalii despre ucigas.
+              In afara de faptul Oven a fost strangulat nu am reusit sa aflam
+              mai multe detalii despre ucigas.
             </Text>
           </Radio>
         </Radio.Group>
@@ -69,14 +71,14 @@ function Chapter1() {
         <Text b> ADN </Text>
         <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, c: e }))}>
           <Radio value="A">
-            <Text>Sangele apartinei unui animal.</Text>
+            <Text>Sangele apartine unui animal.</Text>
           </Radio>
           <Radio value="B" size="md">
             <Text>Mostra nu este sange.</Text>
           </Radio>
           <Radio value="C">
             <Text>
-              Mostra este contaminata din cauza asta va dura o perioada pana ce
+              Mostra este contaminata,din cauza asta va dura o perioada pana ce
               se poate recrea profilul ADN.
             </Text>
           </Radio>

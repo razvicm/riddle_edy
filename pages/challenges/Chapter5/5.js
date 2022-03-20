@@ -13,10 +13,10 @@ function Chapter1() {
 
       <Text>
         Sunetul dintr-un labirint preia proprietatiile unui lichid. Umple toate
-        golurile si parcurge toate traseele care ii permite labirintul. Deci
-        sarcina era simpla, trebuia sa urmarim inapoi traseul ecoului din
-        punctul in care a parasit labirintul pana la locul de unde a tras
-        ucigasul.
+        golurile si parcurge toate traseele care ii permite labirintul.{" "}
+        <Spacer /> Deci sarcina era simpla, trebuia sa urmarim inapoi traseul
+        ecoului din punctul in care a parasit labirintul pana la locul de unde a
+        tras ucigasul.
         <Spacer />
         Dupa ce ati descoperit locul, puteti merge mai departe.
       </Text>

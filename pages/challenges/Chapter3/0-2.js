@@ -14,13 +14,13 @@ function Chapter1() {
         Am auzit mai multe focuri de arma dar nu am putut identifica exact
         locatia din cauza ecourilor. Dar acesta nu m-a impiedicat a gasi locul,
         deoarece prin statie am primit informatii suficiente pentru a localiza
-        cu exactitate zona in care s-a tras.
-        <br /> Prima data Philip a auzit focurile de arma dar a fost numai al
-        treilea care m-a sunat.
-        <br /> Mai rapid ca Philip a fost Martin. <br />
-        Alex a fost si mai rapid decat Martin chiar daca nu a avut multe
+        cu exactitate zona in care s-a tras. <Spacer />
+        • Prima data Philip a auzit focurile de arma dar a fost numai al treilea
+        care m-a sunat.
+        <br />• Mai rapid ca Philip a fost Martin. <br />
+        • Alex a fost si mai rapid decat Martin chiar daca nu a avut multe
         informatii.
-        <br /> Ultimul care a sunat a fost Teodor, dar el a si oferit cele mai
+        <br />• Ultimul care a sunat a fost Teodor, dar el a si oferit cele mai
         multe si mai precise indicii.
         <Spacer />
         Dupa ce ati rezolvat enigma, puteti merge mai departe, la locatia
