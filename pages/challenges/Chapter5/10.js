@@ -21,6 +21,19 @@ function Chapter1() {
       <Text>
         Scoate din plic indiciul <b>Y</b>.
       </Text>
+      <Spacer />
+      <Text>
+        <i style={{ lineHeight: "2rem" }}>
+          Am reusit sa restaurez anuntul TV care a fost gasit pe tableta
+          jurnalistului. Acum stiu cu precizie ca{" "}
+          <span style={{ fontSize: "1.75rem", padding: "0 5px" }}>🩸</span> este
+          ucigasul. Ne-a tinut de fraieri si ne-a lasat sa jucam asa cum voia
+          el. Ma tem ca eu sunt urmatoarea pe lista lui. De aceea am scris
+          aceasta scrisoare. Va rog sa nu mai aveti incredere in persoana lui
+          autoritara si opriti-l pana cand nu ne va ucide pe toti. <Spacer />
+          Sharon
+        </i>
+      </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter5/9">
           <Link>Inapoi</Link>
