@@ -38,7 +38,6 @@ export default function Layout({ children }) {
         <NextLink href="/">
           <Text h2>Pierdut printre stele</Text>
         </NextLink>
-        <Spacer />
         <div className={styles.btnModals}>
           <Text h4 onClick={handlerIndicii} color="darkcyan">
             Ajutor indicii

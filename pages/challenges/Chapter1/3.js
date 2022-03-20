@@ -11,8 +11,8 @@ function Chapter1() {
       <Text h3>Capitolul 1</Text>
       <Spacer />
       <Text>
-        Scoateti din plic indiciile cu literele C, G, Q, J, T, harta si profilul
-        criminal. <br />
+        Scoateti din plic indiciile cu literele{" "}
+        <b>C, G, Q, J, T, harta si profilul criminal</b>. <br />
         Pentru a rezolva ghicitoarea <b>J</b> trebuie sa raspundeti la
         urmatoarele intrebari. Cuvintele pot fi marcare orizontal sau vertical
         in tabel. Fiecare cuvant apare doar o singura data. <Spacer />
@@ -22,8 +22,10 @@ function Chapter1() {
         de gaz si intalatiile sanitare. <br />
         4. O fiinta mitica cu urechi ascutite. Apare si in Stapanul Inelelor.
         <Spacer />
-        Dupa ce ati rezolvat indiciile C,G,J si T puteti merge mai departe
+        Dupa ce ati rezolvat indiciile <b>C,G,J si T</b> puteti merge mai
+        departe
       </Text>
+
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter1/2">
           <Link>Inapoi</Link>

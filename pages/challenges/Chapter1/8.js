@@ -14,7 +14,7 @@ function Chapter1() {
         Felicitari! Ati aflat combinatia pentru cutia neagra!
         <br />
         Acum ar fi recomandat sa treceti informatiile obtinute pe pagina
-        profilului criminal. (trasaturi fizice, sexul - masculin/feminin/gender
+        profilului criminal. (trasaturi fizice, sexul - masculin/feminin/gen
         necunoscut, complice - da/nu, etc.)
         <Spacer />
         Nu mai aveti nevoie de indiciile <b>T, J, G</b>.
