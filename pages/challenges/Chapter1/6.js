@@ -10,7 +10,10 @@ function Chapter1() {
       <Spacer />
       <Text h3>Capitolul 1</Text>
       <Spacer />
-      <Text> Verificati indiciul Q.</Text>
+      <Text>
+        {" "}
+        Verificati indiciul <b>Q</b>.
+      </Text>
       <Spacer />
       <Text>
         <i>Cineva neautorizat s-a logat in bordul navei</i>

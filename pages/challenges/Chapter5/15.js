@@ -97,7 +97,7 @@ function Chapter1() {
         <Text b> Pozitia tragatorului </Text>
         <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, e: e }))}>
           <Radio value="A">
-            <Text>
+            <Text css={{ paddingLeft: "10px" }}>
               Pozitia, conditiile meteorologice si distanta plus faptul ca
               Sharon a fost doborata cu un singur glont arata ca ucigasul este
               profesionist in folosirea aceste tip de arma.
@@ -109,7 +109,7 @@ function Chapter1() {
             </Text>
           </Radio>
           <Radio value="C">
-            <Text>
+            <Text css={{ paddingLeft: "5px" }}>
               Sharon a fost impuscata dintr-un alt loc ,dupa care indiciile au
               fost aduse aici cpentru a induce detectivii in eroare.
             </Text>

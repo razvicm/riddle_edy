@@ -51,17 +51,19 @@ function Chapter1() {
         <Text b> Autopsia </Text>
         <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, b: e }))}>
           <Radio value="A">
-            <Text>Oven a fost strangulat fara sa opuna rezistenta.</Text>
+            <Text css={{ paddingLeft: "5px" }}>
+              Oven a fost strangulat fara sa opuna rezistenta.
+            </Text>
           </Radio>
           <Radio value="B" size="md">
-            <Text>
+            <Text css={{ marginLeft: "15px" }}>
               Oven a fost surprins de ucigas, dar inainte sa fie ucis s-a luptat
               pentru viata lui. Drept urmare ucigasul stia ce face si era mai
               puternic si mai antrenat decat victima.
             </Text>
           </Radio>
           <Radio value="C">
-            <Text>
+            <Text css={{ paddingLeft: "5px" }}>
               In afara de faptul Oven a fost strangulat nu am reusit sa aflam
               mai multe detalii despre ucigas.
             </Text>
@@ -77,7 +79,7 @@ function Chapter1() {
             <Text>Mostra nu este sange.</Text>
           </Radio>
           <Radio value="C">
-            <Text>
+            <Text css={{ paddingLeft: "5px" }}>
               Mostra este contaminata,din cauza asta va dura o perioada pana ce
               se poate recrea profilul ADN.
             </Text>

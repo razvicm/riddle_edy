@@ -25,7 +25,7 @@ function Chapter1() {
       <Text h3>Capitolul 5</Text>
       <Spacer />
       <Text>
-        Cautati indicatorul cu pescar aflat pe malul raului si introduceti
+        Cautati indicatorul cu un pescar aflat pe malul raului si introduceti
         cuvantul al treilea de pe acesta.
       </Text>
       <Spacer />

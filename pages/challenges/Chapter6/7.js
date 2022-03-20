@@ -22,7 +22,7 @@ function Chapter1() {
         erau notate trei simboluri pe care le-am mai vazut undeva dar nu imi mai
         aduceam aminte unde. Fiecare simbol era compus din trei randuri iar
         fiecare rand avea loc de doua puncte.
-        <Spacer /> <b>Primul Simbol</b>:<br /> • in primul rand punctul alb se
+        <Spacer /> <b>Primul simbol</b>:<br /> • in primul rand punctul alb se
         afla pe partea dreapta
         <br /> • in al doilea rand erau vizibile ambele puncte albe
         <br /> • si in al treilea rand erau vizibile ambele puncte

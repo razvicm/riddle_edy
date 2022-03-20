@@ -29,7 +29,7 @@ function Chapter1() {
         * Mai multe plagi pe spate, dovezile unei lupte
         <br />
         <br />
-        Cauza mortii:
+        <b>Cauza mortii:</b>
         <br />
         Hipoxia provocata din cauza strangularii, prima data a provocat
         ameteala, pierderea cunostintei si dupa aceea moartea.
