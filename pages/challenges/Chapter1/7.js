@@ -29,7 +29,7 @@ function Chapter1() {
         <Text b> Biletul din buzunar</Text>
         <Radio.Group onChange={(e) => setAnswers((ans) => ({ ...ans, a: e }))}>
           <Radio value="A">
-            <Text>
+            <Text css={{ paddingLeft: "5px" }}>
               Oven a aflat ca cineva s-a logat ilegal la bordul navei si pentru
               asta trebuia sa moara.
             </Text>
@@ -40,8 +40,8 @@ function Chapter1() {
             </Text>
           </Radio>
           <Radio value="C">
-            <Text>
-              Cineva a lasat informatia asta in buzunarul mortului pentru a duce
+            <Text css={{ paddingLeft: "5px" }}>
+              Cineva a lasat informatia asta in buzunarul victimei pentru a duce
               in eroare investigatorii.
             </Text>
           </Radio>
@@ -63,7 +63,7 @@ function Chapter1() {
             </Text>
           </Radio>
           <Radio value="C">
-            <Text css={{ paddingLeft: "5px" }}>
+            <Text css={{ paddingLeft: "10px" }}>
               In afara de faptul Oven a fost strangulat nu am reusit sa aflam
               mai multe detalii despre ucigas.
             </Text>
@@ -79,7 +79,7 @@ function Chapter1() {
             <Text>Mostra nu este sange.</Text>
           </Radio>
           <Radio value="C">
-            <Text css={{ paddingLeft: "5px" }}>
+            <Text css={{ paddingLeft: "10px" }}>
               Mostra este contaminata,din cauza asta va dura o perioada pana ce
               se poate recrea profilul ADN.
             </Text>
