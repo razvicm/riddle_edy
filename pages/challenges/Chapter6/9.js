@@ -15,7 +15,7 @@ function Chapter1() {
         corecte si combinand cele trei forme geometrice am avut si codul de
         repornire. Dupa ce sistemul din nou era online am reusit sa las si
         mesajul SOS. Apoi am parasit epava si ne-am indreptat rapid spre naveta
-        sperand ca totul este pregatit de plecare.
+        sperand ca totul este pregatit de plecare
       </Text>
       <div style={navigationStyles}>
         <NextLink href="/challenges/Chapter6/8">
