@@ -32,7 +32,9 @@ function Chapter1() {
       <Text h3>Capitolul 5</Text>
       <Spacer />
 
-      <Text>Gaseste locul de unde s-a tras.</Text>
+      <Text>
+        Gaseste locul de unde s-a tras. (Foloseste indiciul <b>Y</b>)
+      </Text>
       <Spacer />
       <Input
         placeholder="Introduceti locul"
