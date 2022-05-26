@@ -86,9 +86,11 @@ export default function ModalLista({ visible, closeHandler }) {
           </li>
           <li>
             <Text>
-              Richard B. Ridick si trupa sa de detectivi: 34 ani, detectiv,
-              experienta militara (fost commandant al unei echipe speciale),
-              calatoreste in Sistemul Tango.
+              <Text color="primary" weight="bold" as="span">
+                Richard B. Ridick si trupa sa de detectivi (tu si echipa ta)
+              </Text>
+              : 34 ani, detectiv, experienta militara (fost commandant al unei
+              echipe speciale), calatoreste in Sistemul Tango.
             </Text>
           </li>
           <li>
