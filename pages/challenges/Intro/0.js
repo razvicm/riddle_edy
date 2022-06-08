@@ -31,10 +31,10 @@ function Chapter1() {
         Indiciile sunt graduale, urmand ca ultimul sa va dea si raspunsul
         corect.
         <Spacer />
-        De asemenea, ne puteti scrie si pe Messenger, in cazul in care nu
+        {/* De asemenea, ne puteti scrie si pe Messenger, in cazul in care nu
         reusiti sa treceti mai departe
         (https://www.facebook.com/InceptionTreasureHunts).
-        <Spacer />
+        <Spacer /> */}
         Mult succes! 😉
       </Text>
       <Spacer />
