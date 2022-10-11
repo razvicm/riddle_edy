@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <NextUIProvider>
       <Head>
-        <title>Pierdut printre stele</title>
+        <title>Rejtveny</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Layout>

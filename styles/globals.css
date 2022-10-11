@@ -4,6 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("https://cliply.co/wp-content/uploads/2020/01/402001120_PAPER_HEARTS_400px.gif");
+  /* background-image: url("https://cliply.co/wp-content/uploads/2020/01/402001940_HEARTS_BG_400px.gif"); */
+  /* background-image: url("https://i.pinimg.com/originals/36/a3/cf/36a3cffbccd05e21336c4e418fe3d0e4.gif"); */
+  background-size: cover;
 }
 
 a {

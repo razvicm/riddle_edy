@@ -29,34 +29,14 @@ export default function Layout({ children }) {
       <ModalIndicii visible={visibleIndicii} closeHandler={closeHandler} />
       <ModalLista visible={visibleList} closeHandler={closeHandler} />
       <header className={styles.header}>
-        <Image src={"/logo.png"} alt="logo" width={50} height={50} />
-        <span>Inception Treasure Hunts </span>
-        <span></span>
+        <span>Rejtveny </span>
       </header>
 
       <main className={styles.main}>
-        <NextLink href="/">
-          <Text h2>Pierdut printre stele</Text>
-        </NextLink>
-        <div className={styles.btnModals}>
-          <Text h4 onClick={handlerIndicii} color="darkcyan">
-            Ajutor indicii
-          </Text>
-          {shouldDisplayPassengerList && (
-            <Text h4 onClick={handlerList}>
-              Lista pasageri
-            </Text>
-          )}
-        </div>
-        <Spacer />
-
         <Container alignItems="center" display="flex" direction="column" fluid>
           {children}
         </Container>
       </main>
-      <footer className={styles.footer}>
-        Copyright &copy; {new Date().getFullYear()}{" "}
-      </footer>
     </div>
   );
 }
