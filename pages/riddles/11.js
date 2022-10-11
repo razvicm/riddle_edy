@@ -52,7 +52,9 @@ function Chapter1() {
       <Spacer />
       <div style={navigationStyles}>
         <NextLink href="/riddles/10">
-          <Button color="secondary">Inapoi</Button>
+          <Button color="secondary" size="sm">
+            Inapoi
+          </Button>
         </NextLink>
         <span></span>
       </div>

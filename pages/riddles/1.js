@@ -52,12 +52,16 @@ function Chapter1() {
       <Spacer />
       <div style={navigationStyles}>
         <NextLink href="/">
-          <Button color="secondary">Inapoi</Button>
+          <Button color="secondary" size="sm">
+            Inapoi
+          </Button>
         </NextLink>
         <span></span>
         {correctAnswer && (
           <NextLink href="/riddles/2">
-            <Button color="success">Mai departe</Button>
+            <Button color="success" size="sm">
+              Mai departe
+            </Button>
           </NextLink>
         )}
       </div>
