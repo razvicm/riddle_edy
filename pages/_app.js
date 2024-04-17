@@ -12,8 +12,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           httpEquiv="refresh"
-          content="0"
-          url="https://www.conductor.com/"
+          content="0 url=https://www.conductor.com/"
         ></meta>
         <meta property="og:title" content="European Travel Destinations" />
         <meta property="og:type" content="article" />
