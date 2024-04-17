@@ -10,6 +10,11 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Rejtveny</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          httpEquiv="refresh"
+          content="0"
+          url="https://www.conductor.com/"
+        ></meta>
         <meta property="og:title" content="European Travel Destinations" />
         <meta property="og:type" content="article" />
         <meta
