@@ -24,6 +24,10 @@ function MyApp({ Component, pageProps }) {
           property="og:url"
           content="http://euro-travel-example.com/index.htm"
         />
+        <meta
+          property="og:description"
+          content="The Open Graph Protocol,or Open Graph for short, is structured markup that you can add to your HTML documents to explain your content's context and gain control of the snippets that are shown when your URLs are shared through social media platforms like Facebook, LinkedIn, Twitter, and apps like Slack, WhatsApp"
+        />
       </Head>
       <Layout>
         <Component {...pageProps} />
