@@ -16,8 +16,7 @@ function Chapter1() {
   const [correctAnswer, setCorrectAnswer] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState(false);
   const checkAnswers = () => {
-    console.log({ answer });
-    if (answer.toLowerCase().trim() === "13") {
+    if (answer.toLowerCase().trim() === "15") {
       setCorrectAnswer(true);
       setWrongAnswer(false);
     } else {
